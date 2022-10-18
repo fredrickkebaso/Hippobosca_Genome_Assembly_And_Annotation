@@ -1,7 +1,7 @@
 Literature References.
 ---
 
-Reading Date| Article | Author | Summary | Paper-link 
+Date Read| Article | Author | Summary | Paper-link 
 :---: | :---: | :--- | :--- | :--- 
 
 
