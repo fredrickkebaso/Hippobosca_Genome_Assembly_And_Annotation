@@ -6,7 +6,7 @@
 
 ## Main Objective
 
-- Perform De novo assembly of the Hippoboscus
+- Perform De novo assembly of the Hippoboscas genome
 
 ## Specific objectives
 
