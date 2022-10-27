@@ -12,7 +12,7 @@ Insights and other researches that will provide answers to many scientific quest
 
 ## Main Objective
 
-- Perform De novo assembly of the Hippoboscas genome
+- Perform De novo assembly of the Hippoboscus genome
 
 ## Specific objectives
 
