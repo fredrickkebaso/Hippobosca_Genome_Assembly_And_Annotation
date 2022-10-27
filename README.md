@@ -10,9 +10,9 @@ For decades these flies have remained neglected and disregarded by the scientifi
 The preliminary research related to the genetics of these little-known hippoboscids demonstrates the necessity to develop full-scale genomic resources to address the vector competence of these ectoparasites, their genetic makeup and epidemiology.
 
 This study focuses on the de novo genome assembly of three Hippoboscus species; 
-- H.variegata, 
-- H.longipennis and 
-- H.camelina 
+- *H.variegata*
+- *H.longipennis*
+- *H.camelina*
 
 The availing of the genome assembly will spur molecular-based insights and other researches that will provide answers to many scientific questions that have remained pending for a decade.
 
