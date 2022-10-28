@@ -15,3 +15,11 @@ This is postulated to complicate research around this fascinating keds. Due to t
 - Hippobosca longipennis has been reported to light on humans and occasionally bite but the extent of their ability to feed on humans is unknown [Rani et al., 2011](https://parasitesandvectors.biomedcentral.com/articles/10.1186/1756-3305-4-143).
 
 - An attempt to resolve species of keds through  DNA  barcoding  of  COI  gene  has been   unsuccessful   possibly   because   these   flies   are   little studied and have poor representation in the databases [Kidambasi et al., 2020](https://pubmed.ncbi.nlm.nih.gov/32510036/).
+
+The availability of the reference genome or assembly is therefore key to resolve some of these key questions and this lies at the bottom of this study. Here we aim to:
+1. Performe a de novo assembly of the genome at the species level using genomic data obtained from 3 species that include:
+- H.variegata
+- H.longipennis
+- H.camelina
+2. Completely annnotate the assembled genome and 
+3. Performe phylogenetic analysis. 
