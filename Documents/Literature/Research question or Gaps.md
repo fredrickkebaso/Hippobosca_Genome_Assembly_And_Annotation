@@ -17,7 +17,7 @@ The closest genome assembly available is at the species level for the  *Melophug
 - Transmission dynamics of pathogens between the host and the vector, whether there it happens during blood feeding or during host shifts [n.d](https://www.liebertpub.com/doi/full/10.1089/vbz.2011.0649)has remained unknown.
 
 
-The availability of the reference genome or assembly is therefore key to resolve some of these key questions and will spur research among the scientific community on the keds. The noble task lies at the bottom of this study. Here we aim to:
+The availability of the reference genome or assembly is therefore key to resolve some of these key questions and will spur research among the scientific community on the keds. This noble task lies at the bottom of this study. Here we aim to:
 
 1. Perform a de novo assembly of the genome at the species level using genomic data obtained from 3 species that include:
 - H.variegata
