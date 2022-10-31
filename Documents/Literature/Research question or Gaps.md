@@ -1,4 +1,4 @@
-## Research questions
+## Research question
 
 A reference genome provides wealth molecular basis of insights into an organism. The completion of the major genome projects such as the Human Genome Project (HGP) spurred a myriad of scientific publications on human health. The Hippoboscus(lousefly), an hematophagous ectoparasite of birds and mammals, have no an assembled  reference genome of any of its species, deposited or made available as of 28th October 2022 in the genome assembly database (NCBI and GenBank). 
 The closest genome assembly available is at the genus level for the  *Melophugus ovinus* (Sheep ked) in the Hippoboscidae family . This accounts for the little scientific knowledge available up to date about the Hippposcus biology. Additionally, the lack of a reference genome limits the molecular basis of the little findings.This is postulated to complicate research around this fascinating keds. Due to this the following gaps exist and further research has been  recommended: 
