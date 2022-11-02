@@ -11,16 +11,22 @@ The preliminary research related to the genetics of these little-known hippobosc
 
 This study focuses on the de novo genome assembly of three Hippoboscus species;
 
-<img src="https://user-images.githubusercontent.com/60787991/199466649-777ba12a-b1ff-4457-b206-bcf71d5affd6.jpg" title="Angular"  width="300"/>
+
+<img src="https://user-images.githubusercontent.com/60787991/199466649-777ba12a-b1ff-4457-b206-bcf71d5affd6.jpg" title="Angular"  width="300"/> 
+ 
+ *H. camelina*
+
 <img src="https://user-images.githubusercontent.com/60787991/199472074-b5958e35-c3d5-4a1a-976d-c3d9ab2455e3.jpg" width="300"/>
-<img src="https://user-images.githubusercontent.com/60787991/199473336-e1a508dc-951b-4ce5-83a1-421ea69e6fbc.jpg" width="200"/>
+
+*H.variegata*
+
+
+<img src="https://user-images.githubusercontent.com/60787991/199485143-d22e2b65-f8df-4230-88cf-ba8b641be029.jpg" width="300"/>
 
 
 
 
-- *H.variegata*
-- *H.longipennis*
-- *H. camelina*
+*H.longipennis*
 
 The availing of the genome assembly will provide the knowledge base upon which vector competence, epidemiology and effective control strategies of the hippoboscus flies will be based. 
 
