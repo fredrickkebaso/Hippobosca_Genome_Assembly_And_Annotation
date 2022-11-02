@@ -26,7 +26,7 @@ A reference genome provides comprehensive, unbiased genomic information about an
 
 Constructing the genomic assembly of; *H.variegata, H.longipennis and H.camelina* informs this study.
 
-To this purpose, this study aims to: 
+To this purpose, this study aims to:
 
 1. Perform a de novo assembly of the genome of the 3 species
 2. Completely annotate the assembled genome
