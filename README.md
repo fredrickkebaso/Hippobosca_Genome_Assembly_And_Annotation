@@ -1,4 +1,4 @@
-# Hippoboscus De novo Genome Assembly
+# Hippoboscus De novo Genome Assembly,Annotation and Phylogenetic analysis
 
 
 ## Background of the study
