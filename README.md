@@ -50,6 +50,7 @@ To this purpose, this study aims to:
 
 ## Software and Packages
 
-1. fastqc version 
+1. FastQC v0.11.9
+2.  
 
 
