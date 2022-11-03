@@ -4,6 +4,7 @@ Create a working directory and cd to it. All scripts run from the working direct
 
 Download the data sets into the **Data** directory 
 
-### N/B All the scripts are run in the numbered order.
-
+### 01. Quality check and generation of multiqc report
+```
+01_qualitycheck.sh
 ```
