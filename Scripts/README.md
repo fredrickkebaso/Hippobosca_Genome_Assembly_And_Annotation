@@ -4,8 +4,6 @@ Create a working directory and cd to it. All scripts run from the working direct
 
 Download the data sets into the **Data** directory 
 
-### 01. Assessing the Quality check of the raw reads
-```
-01_qualitycheck.sh
+### N/B All the scripts are run in the numbered order.
 
 ```
