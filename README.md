@@ -44,5 +44,12 @@ To this purpose, this study aims to:
 3. Perform phylogenetic analysis.
 
 
+## Methodology
+
+
+
+## Software and Packages
+
+1. fastqc version 
 
 
