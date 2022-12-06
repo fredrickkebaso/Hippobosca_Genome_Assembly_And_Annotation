@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#For assessment of assembly quality
+#For assessment of genome quality and completeness
 
 conda activate busco_env
 
