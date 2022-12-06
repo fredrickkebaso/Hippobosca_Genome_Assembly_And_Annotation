@@ -3,7 +3,7 @@
 #Checks the quality of the reads using fastqc tool version 0.11.9
 
 
-mkdir -p ${PWD}/results/mkdir -p ${PWD}/results/{multiqc_report, quality_reports}
+mkdir -p ${PWD}/results/mkdir -p ${PWD}/results/{multiqc_report,quality_reports}
 
 for i in ${PWD}/raw_reads/*.gz
 

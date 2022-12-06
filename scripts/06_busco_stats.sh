@@ -2,6 +2,8 @@
 
 #For assessment of assembly quality
 
+conda activate busco_env
+
 busco \
 --in /home/kebaso/Documents/projects/hippo/results/velvet_out/contigs.fa \
 --lineage diptera_odb10 \
