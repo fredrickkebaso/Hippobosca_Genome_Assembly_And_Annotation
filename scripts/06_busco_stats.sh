@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#For assessment of assembly quality
+#For assessment of genome quality and completeness
 
 busco \
 --in /home/kebaso/Documents/projects/hippo/results/velvet_out/contigs.fa \
