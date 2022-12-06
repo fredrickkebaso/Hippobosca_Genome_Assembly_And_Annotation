@@ -88,9 +88,6 @@ echo Completed  Velvetg successfully !!!!
 #For assessment of assembly quality
 echo Generating assembled genome statistics using BUSCO and Augustus as the annotation tool
 
-conda init bash
-conda activate busco_env
-
 busco \
 --in /home/kebaso/Documents/projects/hippo/results/velvet_out/contigs.fa \
 --lineage diptera_odb10 \
