@@ -28,7 +28,7 @@ This study focuses on the de novo genome assembly of three Hippoboscus species;
 
 The availing of the genome assembly will provide the knowledge base upon which vector competence, epidemiology and effective control strategies of the hippoboscus flies will be based. 
 
-Furthermore, it will spur molecular-based insights into the genetics of these organisms and other research that will provide answers to many scientific questions that have remained pending for decades as discussed in this [research question](https://github.com/fredrickkebaso/Hippobosca-De-novo-Genome-Assembly/blob/main/Documents/Literature/Research%20question%20or%20Gaps.md).
+Furthermore, it will spur molecular-based insights into the genetics of these organisms and other research that will provide answers to many scientific questions that have remained pending for decades as discussed in this [research question](https://github.com/fredrickkebaso/Hippobosca-De-novo-Genome-Assembly/blob/main/documents/Literature/Research%20question%20or%20Gaps.md).
 
 
 ## Statement of Objectives
@@ -39,12 +39,26 @@ Constructing the genomic assembly of; *H.variegata, H.longipennis and H.camelina
 
 To this purpose, this study aims to:
 
-1. Perform a de novo assembly of the genome of the 3 species
-2. Completely annotate the assembled genome
-3. Perform phylogenetic analysis.
+1. Generate a molecular level reference genome of the Hippoboscas using genomic data from three Hippoboscas species that include; *H.variegata*, *H.longipennis* and *H.camelina*.
+
+2. To comparatively annotate chemosensory genes in the 3 *Hippobosca* species
+
+3. To determine the evolutionary distance between the 3 *Hippobosca* species and among the closely related species (Drosophila, *M.domestica*, *An.gambiae*).
+
 
 
 ## Analysis workflow
+
+
+![De_novo_Genome-Assembly-objective-1](https://user-images.githubusercontent.com/60787991/206240189-33e182cb-5651-418a-8c50-2c1f8c07f30f.jpeg)
+
+
+![Gene prediction and annotation](https://user-images.githubusercontent.com/60787991/206240331-87e5b33c-71bd-4dab-a288-3470e8c153ed.jpeg)
+
+![Comaparative_Phylogenetics_workflow](https://user-images.githubusercontent.com/60787991/206240377-e3315984-63d1-4a0f-98e1-6a4f0124aa55.jpeg)
+
+
+![Selection analysis workflow](https://user-images.githubusercontent.com/60787991/206240426-a53320e7-2450-4ee4-8d24-fe4364901174.jpeg)
 
 
 
