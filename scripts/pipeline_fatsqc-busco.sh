@@ -6,7 +6,7 @@ set -eu
 
 mkdir -p ${PWD}/results/{multiqc_report,quality_reports}
 
-for i in ${PWD}/data/raw_reads/*S1*L001_R{1,2}_001.fastq.gz
+for i in ${PWD}/raw_reads/*S1*L001_R{1,2}_001.fastq.gz
 
 do
 
@@ -23,7 +23,7 @@ echo CLEANING DATA USING TRIM_GALORE
 
 #Trim_galore cleans reads and generates  a  fastqc report of the cleaned reads
 
-mkdir -p  ${PWD}/results/quality_recheck
+mkdir -p ${PWD}/results/quality_cleaned_reads/{multiqc_report,quality_recheck}
 
 for f_read in ${PWD}/raw_reads/*S1*L001_R1_001.fastq.gz
 
@@ -32,7 +32,7 @@ do
 revread=${f_read/_R1_/_R2_}
 
 trim_galore \
--fastqc_args "--outdir ${PWD}/results/quality_recheck" \
+-fastqc_args "--outdir ${PWD}/results/quality_cleaned_reads/quality_recheck" \
 --quality 25 \
 --clip_R1 10 \
 --clip_R2 10 \
@@ -47,8 +47,6 @@ done;
 #Multiqc report
 
 echo generating multiqc report of the cleaned reads
-
-mkdir -p ${PWD}/results/quality_cleaned_reads/{multiqc_report,quality_recheck}
 
 multiqc -o ${PWD}/results/quality_cleaned_reads/multiqc_report ${PWD}/results/quality_cleaned_reads/quality_recheck
 
