@@ -43,7 +43,7 @@ To this purpose, this study aims to:
 
 2. To comparatively annotate chemosensory genes in the 3 *Hippobosca* species
 
-3. To determine the evolutionary distance between the 3 *Hippobosca* species and among the closely related species (Drosophila, *M.domestica*, *An.gambiae*).
+3. To determine the evolutionary distance between the 3 *Hippobosca* species and among the closely related species (*Glossina*,Drosophila, *M.domestica*, *An.gambiae*).
 
 
 
