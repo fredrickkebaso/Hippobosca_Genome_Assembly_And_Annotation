@@ -25,7 +25,7 @@ echo CLEANING DATA USING TRIM_GALORE
 
 mkdir -p  ${PWD}/results/quality_recheck
 
-for f_read in ${PWD}/data/raw_reads/*S1*L001_R1_001.fastq.gz
+for f_read in ${PWD}/raw_reads/*S1*L001_R1_001.fastq.gz
 
 do
 
@@ -33,10 +33,10 @@ revread=${f_read/_R1_/_R2_}
 
 trim_galore \
 -fastqc_args "--outdir ${PWD}/results/quality_recheck" \
---quality 35 \
+--quality 25 \
 --clip_R1 10 \
 --clip_R2 10 \
---length 120 \
+--length 20 \
 --cores 4 \
 --phred33 \
 --output_dir ${PWD}/results/clean_reads \
