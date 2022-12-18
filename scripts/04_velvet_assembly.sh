@@ -18,7 +18,7 @@ echo Concatenating reads Completed successfully !!!
 
 echo Running velveth...Hashing...
 
-velveth ${PWD}/results/velvet_out 51 -fastq.gz -shortPaired -separate ${PWD}/results/hvariegata_merged/S1-hvariegata_merged_R1_.fq.gz ${PWD}/results/hvariegata_merged/S1-hvariegata_merged_R2_.fq.gz
+velveth ${PWD}/results/velvet_out 21 -fastq.gz -shortPaired -separate ${PWD}/results/hvariegata_merged/S1-hvariegata_merged_R1_.fq.gz ${PWD}/results/hvariegata_merged/S1-hvariegata_merged_R2_.fq.gz
 
  echo Completed hashing successfully
 
