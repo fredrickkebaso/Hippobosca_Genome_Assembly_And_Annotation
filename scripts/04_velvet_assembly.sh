@@ -1,29 +1,38 @@
 #!/bin/bash
 
-echo Concatenating reads...
+set -eu
 
-mkdir -p ${PWD}/results/{hvariegata_merged,velvet_out}
+#Running velvet
 
-for f_read in ${PWD}/results/clean_reads/*S1*_R1_001_val_1.fq.gz
+mkdir -p results/velvet_out/{hvariegata_female_genome,hlongipennis_female_genome,hcamelina_female_genome,hcamelina_male_genome}
 
-do
-    revread=${f_read/_R1_001_val_1.fq.gz/_R2_001_val_2.fq.gz}
-    echo $f_read
-    echo $revread
-    cat $f_read >> ${PWD}/results/hvariegata_merged/S1-hvariegata_merged_R1_.fq.gz
-    cat $revread >> ${PWD}/results/hvariegata_merged/S1-hvariegata_merged_R2_.fq.gz
+echo Running velvet...
 
-done;
-echo Concatenating reads Completed successfully !!!
+echo Assembling Hvariegata_female_genome...
 
-echo Running velveth...Hashing...
+velveth results/velvet_out/hvariegata_female_genome 51 -fastq.gz -shortPaired -separate results/clean_reads/S1-Hvariegata-F.R1_val_1.fq.gz results/clean_reads/S1-Hvariegata-F.R2_val_2.fq.gz && \
+velvetg results/velvet_out/hvariegata_female_genome -exp_cov auto -cov_cutoff auto -ins_length 139 -max_gap_count 4 
 
-velveth ${PWD}/results/velvet_out 51 -fastq.gz -shortPaired -separate ${PWD}/results/hvariegata_merged/S1-hvariegata_merged_R1_.fq.gz ${PWD}/results/hvariegata_merged/S1-hvariegata_merged_R2_.fq.gz
+echo Assembling Hlongipennis_female_genome...
 
- echo Completed hashing successfully
+velveth results/velvet_out/hlongipennis_female_genome 51 -fastq.gz -shortPaired -separate results/clean_reads/S2-Hlongipenis-F.R1_val_1.fq.gz results/clean_reads/S2-Hlongipenis-F.R2_val_2.fq.gz && \
+velvetg results/velvet_out/hlongipennis_female_genome -exp_cov auto -cov_cutoff auto -ins_length 139 -max_gap_count 4 
 
- echo Running velvetg !!!!
+echo Assembling hcamelina_female_genome...
 
-velvetg ${PWD}/results/velvet_out -exp_cov auto -cov_cutoff auto -ins_length 139 -read_trkg yes -amos_file yes  -max_gap_count 4
+velveth results/velvet_out/hcamelina_female_genome 51 -fastq.gz -shortPaired -separate results/clean_reads/S3-Hcamelina-F.R1_val_1.fq.gz results/clean_reads/S3-Hcamelina-F.R2_val_2.fq.gz && \
+velvetg results/velvet_out/hcamelina_female_genome -exp_cov auto -cov_cutoff auto -ins_length 139 -max_gap_count 4 
 
-echo Completed  Velvetg successfully !!!!
+echo Assembling hcamelina_male_genome...
+
+velveth results/velvet_out/hcamelina_male_genome 51 -fastq.gz -shortPaired -separate results/clean_reads/S4-Hcamelina-M.R1_val_1.fq.gz results/clean_reads/S4-Hcamelina-M.R2_val_2.fq.gz && \
+velvetg results/velvet_out/hcamelina_male_genome -exp_cov auto -cov_cutoff auto -ins_length 139 -max_gap_count 4 
+
+echo Completed assembling all genomes with Velvet successfully !!!!
+
+
+
+
+
+
+
