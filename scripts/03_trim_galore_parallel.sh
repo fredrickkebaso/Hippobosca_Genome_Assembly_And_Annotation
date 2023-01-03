@@ -6,6 +6,8 @@ echo "Cleaning data using trim_galore in a parallel mode..."
 
 mkdir -p results/quality_reports/{quality_clean_reads,multiqc_clean_reads}
 
+echo "Cleaning data using trim_galore in a parallel mode..."
+
 ls -1 data/merged_raw_reads/*.fastq.gz | \
 cut -d. -f1 | sort | uniq | \
 parallel -j 4 \
