@@ -6,7 +6,7 @@ set -eu
 
 mkdir -p results/quality_reports/{quality_raw_reads,multiqc_raw_reads}
 
-fastqc data/merged_raw_reads/*.fastq.gz -t 4 -o results/quality_reports/quality_raw_reads 
+fastqc data/merged_raw_reads/*.fastq.gz -t 8 -o results/quality_reports/quality_raw_reads 
 
 #General Report using Multiqc version 1.9
 
