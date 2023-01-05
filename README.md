@@ -11,55 +11,38 @@ The preliminary research related to the genetics of these little-known hippobosc
 
 This study focuses on the de novo genome assembly of three Hippoboscus species;
 
-
-<img src="https://user-images.githubusercontent.com/60787991/199466649-777ba12a-b1ff-4457-b206-bcf71d5affd6.jpg" title="Angular"  width="300"/> 
- 
- *H. camelina* [(Icipe-Insect of the month)](http://www.icipe.org/news/insect-month-january-camel-fly-hippobosca-camelina)
-
-<img src="https://user-images.githubusercontent.com/60787991/199472074-b5958e35-c3d5-4a1a-976d-c3d9ab2455e3.jpg" width="300"/>
-
-*H.variegata*
+![Hipposcas](https://user-images.githubusercontent.com/60787991/210814031-8cc59cd8-8813-4046-9544-dbbe086fc360.png)
+***H.camelina***; Adapted from ICIPE Insect of the month, photo by Dr. Dan Masiga.; ***H.variegata*** - Adapted from Namibia discussion forum.; ***H.longipennis*** - Adapted from BOLD, uploaded by Dr. Joel Bargul, ICIPE.
 
 
-<img src="https://user-images.githubusercontent.com/60787991/199485143-d22e2b65-f8df-4230-88cf-ba8b641be029.jpg" width="300"/>
 
 
-*H.longipennis*
 
 The availing of the genome assembly will provide the knowledge base upon which vector competence, epidemiology and effective control strategies of the hippoboscus flies will be based. 
 
 Furthermore, it will spur molecular-based insights into the genetics of these organisms and other research that will provide answers to many scientific questions that have remained pending for decades as discussed in this [research question](https://github.com/fredrickkebaso/Hippobosca-De-novo-Genome-Assembly/blob/main/documents/Literature/Research%20question%20or%20Gaps.md).
 
 
-## Statement of Objectives
+ ## Statement of objectives
 
-A reference genome provides comprehensive, unbiased genomic information about an organism at the molecular level. In addition, it provides new insights not documented in the existing references about the assembled DNA sequences. 
+A reference genome provides comprehensive, unbiased genomic information about an organism at the molecular level. In addition, it provides new insights not documented in the existing references about the assembled DNA sequences. Annotation of chemosensory genes is dependent on the availability of the genome sequence of these species which is missing in its entirety. 
 
-Constructing the genomic assembly of; *H.variegata, H.longipennis and H.camelina* informs this study.
+### Main Objective 
 
-To this purpose, this study aims to:
+- To construct a whole genome assembly of H. variegata, H. longipennis and H. camelina and describe the genes responsible for chemosensing in Hippobosca.
+Specific Objectives
 
-1. Generate a molecular level reference genome of the Hippoboscas using genomic data from three Hippoboscas species that include; *H.variegata*, *H.longipennis* and *H.camelina*.
+### Specific Objecives
 
-2. To comparatively annotate chemosensory genes in the 3 *Hippobosca* species
-
-3. To determine the evolutionary distance between the 3 *Hippobosca* species and among the closely related species (*Glossina*,Drosophila, *M.domestica*, *An.gambiae*).
-
+- To establish whole genome assembly for H. variegata, H. longipennis and H. camelina.
+- To identify the genomic architecture and gene content of the chemosensory genes in the three Hippobosca species.
 
 
 ## Analysis workflow
 
+![De_novo_Genome-Assembly workflow](https://user-images.githubusercontent.com/60787991/210818804-4b2e1f3a-d8b8-4eee-8788-8411f8b62c65.jpeg)
 
-![De_novo_Genome-Assembly-objective-1](https://user-images.githubusercontent.com/60787991/206240189-33e182cb-5651-418a-8c50-2c1f8c07f30f.jpeg)
-
-
-![Gene prediction and annotation](https://user-images.githubusercontent.com/60787991/206240331-87e5b33c-71bd-4dab-a288-3470e8c153ed.jpeg)
-
-![Comaparative_Phylogenetics_workflow](https://user-images.githubusercontent.com/60787991/206240377-e3315984-63d1-4a0f-98e1-6a4f0124aa55.jpeg)
-
-
-![Selection analysis workflow](https://user-images.githubusercontent.com/60787991/206240426-a53320e7-2450-4ee4-8d24-fe4364901174.jpeg)
-
+![Chemosensory gene prediction and annotation](https://user-images.githubusercontent.com/60787991/210818922-12183653-71f9-4738-9ca6-2a5be8ac62e2.jpeg)
 
 
 ## Software and Packages
