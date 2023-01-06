@@ -1,0 +1,510 @@
+Cleaning data using trim_galore v 0.6.6 ...
+Found version Quality-/Adapter-/RRBS-/Speciality-Trimming [powered by Cutadapt] version 0.6.6 Last update: 11 05 2020
+Cleaning data using trim_galore in a parallel mode...
+Using an excessive number of cores has a diminishing return! It is recommended not to exceed 8 cores per trimming process (you asked for 8 cores). Please consider re-specifying
+Path to Cutadapt set as: 'cutadapt' (default)
+Cutadapt seems to be working fine (tested command 'cutadapt --version')
+Cutadapt version: 3.4
+Cutadapt seems to be using Python 3! Proceeding with multi-core enabled Cutadapt using 8 cores
+Parallel gzip (pigz) detected. Proceeding with multicore (de)compression using 8 cores
+
+Output will be written into the directory: /scratch/fkebaso/hippo/hvariegata/results/clean_reads/
+Writing report to '/scratch/fkebaso/hippo/hvariegata/results/clean_reads/S1-Hvariegata-F.R1.fastq.gz_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: data/merged_raw_reads/S1-Hvariegata-F.R1.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.6
+Cutadapt version: 3.4
+Python version: 3.6.12
+Number of cores used for trimming: 8
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'CTGTCTCTTATA' (Nextera Transposase sequence; user defined)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 1 bp
+Output file(s) will be GZIP compressed
+
+Cutadapt seems to be fairly up-to-date (version 3.4). Setting -j 8
+Writing final adapter and quality trimmed output to S1-Hvariegata-F.R1_trimmed.fq.gz
+
+
+  >>> Now performing quality (cutoff '-q 20') and adapter trimming in a single pass for the adapter sequence: 'CTGTCTCTTATA' from file data/merged_raw_reads/S1-Hvariegata-F.R1.fastq.gz <<< 
+10000000 sequences processed
+20000000 sequences processed
+30000000 sequences processed
+This is cutadapt 3.4 with Python 3.6.12
+Command line parameters: -j 8 -e 0.1 -q 20 -O 1 -a CTGTCTCTTATA data/merged_raw_reads/S1-Hvariegata-F.R1.fastq.gz
+Processing reads on 8 cores in single-end mode ...
+Finished in 354.27 s (9 us/read; 6.71 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              39,612,437
+Reads with adapters:                 9,467,302 (23.9%)
+Reads written (passing filters):    39,612,437 (100.0%)
+
+Total basepairs processed: 5,902,253,113 bp
+Quality-trimmed:              46,644,462 bp (0.8%)
+Total written (filtered):  5,764,931,104 bp (97.7%)
+
+=== Adapter 1 ===
+
+Sequence: CTGTCTCTTATA; Type: regular 3'; Length: 12; Trimmed: 9467302 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-12 bp: 1
+
+Bases preceding removed adapters:
+  A: 26.1%
+  C: 22.0%
+  G: 17.6%
+  T: 34.3%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	6206815	9903109.2	0	6206815
+2	934133	2475777.3	0	934133
+3	320558	618944.3	0	320558
+4	97246	154736.1	0	97246
+5	55323	38684.0	0	55323
+6	19473	9671.0	0	19473
+7	32173	2417.8	0	32173
+8	23559	604.4	0	23559
+9	38010	151.1	0	37437 573
+10	42466	37.8	1	39322 3144
+11	25277	9.4	1	23331 1946
+12	52859	2.4	1	49723 3136
+13	50784	2.4	1	48800 1984
+14	19923	2.4	1	18377 1546
+15	36482	2.4	1	34706 1776
+16	30189	2.4	1	28309 1880
+17	13631	2.4	1	12223 1408
+18	39098	2.4	1	37758 1340
+19	8450	2.4	1	7448 1002
+20	33572	2.4	1	32027 1545
+21	51322	2.4	1	48869 2453
+22	40165	2.4	1	38812 1353
+23	18505	2.4	1	17268 1237
+24	12906	2.4	1	12147 759
+25	37962	2.4	1	36222 1740
+26	26091	2.4	1	24435 1656
+27	29126	2.4	1	27576 1550
+28	6562	2.4	1	5820 742
+29	40755	2.4	1	38421 2334
+30	28939	2.4	1	27717 1222
+31	20412	2.4	1	19183 1229
+32	27304	2.4	1	26426 878
+33	10454	2.4	1	9572 882
+34	28947	2.4	1	27435 1512
+35	42080	2.4	1	39978 2102
+36	26181	2.4	1	24853 1328
+37	5980	2.4	1	5320 660
+38	31112	2.4	1	29969 1143
+39	3660	2.4	1	3176 484
+40	32919	2.4	1	31602 1317
+41	28639	2.4	1	27561 1078
+42	7560	2.4	1	6897 663
+43	42485	2.4	1	40870 1615
+44	21768	2.4	1	20815 953
+45	33701	2.4	1	32208 1493
+46	29622	2.4	1	28544 1078
+47	5281	2.4	1	4871 410
+48	7047	2.4	1	6465 582
+49	15182	2.4	1	14594 588
+50	23451	2.4	1	22749 702
+51	25580	2.4	1	24817 763
+52	11150	2.4	1	10453 697
+53	19862	2.4	1	19080 782
+54	21277	2.4	1	20684 593
+55	15010	2.4	1	14423 587
+56	27668	2.4	1	26834 834
+57	28701	2.4	1	28099 602
+58	14018	2.4	1	13530 488
+59	17219	2.4	1	16741 478
+60	3506	2.4	1	3185 321
+61	17968	2.4	1	17429 539
+62	8370	2.4	1	7988 382
+63	3323	2.4	1	2938 385
+64	26246	2.4	1	25693 553
+65	10171	2.4	1	9788 383
+66	3283	2.4	1	3000 283
+67	8250	2.4	1	7822 428
+68	13937	2.4	1	13539 398
+69	1969	2.4	1	1691 278
+70	7389	2.4	1	7003 386
+71	9940	2.4	1	9473 467
+72	12614	2.4	1	12066 548
+73	17710	2.4	1	17073 637
+74	33020	2.4	1	32132 888
+75	17901	2.4	1	17207 694
+76	10155	2.4	1	9647 508
+77	4229	2.4	1	3831 398
+78	1113	2.4	1	852 261
+79	664	2.4	1	426 238
+80	1569	2.4	1	1344 225
+81	3776	2.4	1	3535 241
+82	6520	2.4	1	6225 295
+83	9145	2.4	1	8813 332
+84	11175	2.4	1	10758 417
+85	11329	2.4	1	10928 401
+86	11317	2.4	1	10904 413
+87	10105	2.4	1	9714 391
+88	8940	2.4	1	8589 351
+89	7241	2.4	1	6903 338
+90	6057	2.4	1	5689 368
+91	5692	2.4	1	5371 321
+92	7163	2.4	1	6795 368
+93	8479	2.4	1	8123 356
+94	9820	2.4	1	9419 401
+95	9940	2.4	1	9519 421
+96	9007	2.4	1	8667 340
+97	8105	2.4	1	7743 362
+98	7159	2.4	1	6820 339
+99	5741	2.4	1	5431 310
+100	4528	2.4	1	4237 291
+101	4302	2.4	1	3981 321
+102	4947	2.4	1	4649 298
+103	6710	2.4	1	6364 346
+104	8088	2.4	1	7734 354
+105	7796	2.4	1	7456 340
+106	6804	2.4	1	6451 353
+107	5672	2.4	1	5388 284
+108	4966	2.4	1	4658 308
+109	4101	2.4	1	3812 289
+110	3282	2.4	1	3017 265
+111	2870	2.4	1	2657 213
+112	3203	2.4	1	2947 256
+113	3983	2.4	1	3726 257
+114	4431	2.4	1	4156 275
+115	4029	2.4	1	3692 337
+116	3130	2.4	1	2862 268
+117	2370	2.4	1	2122 248
+118	2068	2.4	1	1840 228
+119	2049	2.4	1	1821 228
+120	1993	2.4	1	1757 236
+121	1665	2.4	1	1431 234
+122	963	2.4	1	748 215
+123	414	2.4	1	163 251
+124	291	2.4	1	82 209
+125	280	2.4	1	61 219
+126	277	2.4	1	56 221
+127	241	2.4	1	46 195
+128	230	2.4	1	36 194
+129	234	2.4	1	36 198
+130	228	2.4	1	20 208
+131	227	2.4	1	12 215
+132	206	2.4	1	7 199
+133	215	2.4	1	6 209
+134	204	2.4	1	4 200
+135	207	2.4	1	4 203
+136	224	2.4	1	3 221
+137	259	2.4	1	14 245
+138	214	2.4	1	7 207
+139	307	2.4	1	9 298
+140	407	2.4	1	10 397
+141	567	2.4	1	12 555
+142	192	2.4	1	6 186
+143	217	2.4	1	1 216
+144	116	2.4	1	2 114
+145	263	2.4	1	11 252
+146	316	2.4	1	8 308
+147	238	2.4	1	5 233
+148	72	2.4	1	0 72
+149	44	2.4	1	1 43
+
+RUN STATISTICS FOR INPUT FILE: data/merged_raw_reads/S1-Hvariegata-F.R1.fastq.gz
+=============================================
+39612437 sequences processed in total
+The length threshold of paired-end sequences gets evaluated later on (in the validation step)
+
+Writing report to '/scratch/fkebaso/hippo/hvariegata/results/clean_reads/S1-Hvariegata-F.R2.fastq.gz_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: data/merged_raw_reads/S1-Hvariegata-F.R2.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.6
+Cutadapt version: 3.4
+Python version: 3.6.12
+Number of cores used for trimming: 8
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'CTGTCTCTTATA' (Nextera Transposase sequence; user defined)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 1 bp
+Output file(s) will be GZIP compressed
+
+Cutadapt seems to be fairly up-to-date (version 3.4). Setting -j -j 8
+Writing final adapter and quality trimmed output to S1-Hvariegata-F.R2_trimmed.fq.gz
+
+
+  >>> Now performing quality (cutoff '-q 20') and adapter trimming in a single pass for the adapter sequence: 'CTGTCTCTTATA' from file data/merged_raw_reads/S1-Hvariegata-F.R2.fastq.gz <<< 
+10000000 sequences processed
+20000000 sequences processed
+30000000 sequences processed
+This is cutadapt 3.4 with Python 3.6.12
+Command line parameters: -j 8 -e 0.1 -q 20 -O 1 -a CTGTCTCTTATA data/merged_raw_reads/S1-Hvariegata-F.R2.fastq.gz
+Processing reads on 8 cores in single-end mode ...
+Finished in 364.85 s (9 us/read; 6.51 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              39,612,437
+Reads with adapters:                 8,613,253 (21.7%)
+Reads written (passing filters):    39,612,437 (100.0%)
+
+Total basepairs processed: 5,902,253,113 bp
+Quality-trimmed:              85,873,554 bp (1.5%)
+Total written (filtered):  5,728,336,341 bp (97.1%)
+
+=== Adapter 1 ===
+
+Sequence: CTGTCTCTTATA; Type: regular 3'; Length: 12; Trimmed: 8613253 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-12 bp: 1
+
+Bases preceding removed adapters:
+  A: 17.1%
+  C: 44.5%
+  G: 12.8%
+  T: 25.5%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	5650511	9903109.2	0	5650511
+2	996193	2475777.3	0	996193
+3	184020	618944.3	0	184020
+4	64717	154736.1	0	64717
+5	16349	38684.0	0	16349
+6	16299	9671.0	0	16299
+7	7664	2417.8	0	7664
+8	8576	604.4	0	8576
+9	12987	151.1	0	12457 530
+10	28353	37.8	1	9321 19032
+11	31848	9.4	1	11369 20479
+12	22858	2.4	1	5809 17049
+13	40802	2.4	1	27467 13335
+14	32339	2.4	1	23919 8420
+15	23024	2.4	1	17528 5496
+16	26098	2.4	1	20966 5132
+17	27648	2.4	1	23628 4020
+18	20663	2.4	1	18782 1881
+19	27690	2.4	1	25851 1839
+20	36444	2.4	1	35015 1429
+21	21476	2.4	1	20051 1425
+22	24379	2.4	1	22774 1605
+23	33234	2.4	1	31442 1792
+24	23641	2.4	1	22011 1630
+25	28952	2.4	1	27359 1593
+26	20366	2.4	1	19154 1212
+27	17306	2.4	1	16244 1062
+28	27956	2.4	1	26170 1786
+29	41593	2.4	1	39807 1786
+30	17398	2.4	1	16251 1147
+31	19035	2.4	1	17430 1605
+32	36914	2.4	1	35259 1655
+33	26380	2.4	1	24863 1517
+34	17439	2.4	1	16114 1325
+35	21584	2.4	1	20375 1209
+36	16820	2.4	1	15757 1063
+37	21926	2.4	1	20854 1072
+38	15910	2.4	1	14714 1196
+39	17821	2.4	1	16706 1115
+40	26762	2.4	1	25693 1069
+41	20072	2.4	1	18846 1226
+42	21380	2.4	1	20164 1216
+43	21707	2.4	1	20273 1434
+44	22294	2.4	1	21194 1100
+45	18106	2.4	1	17068 1038
+46	17231	2.4	1	16381 850
+47	15762	2.4	1	14884 878
+48	17039	2.4	1	15987 1052
+49	19138	2.4	1	18270 868
+50	16695	2.4	1	15795 900
+51	19358	2.4	1	18297 1061
+52	18929	2.4	1	18137 792
+53	20230	2.4	1	19368 862
+54	13534	2.4	1	12788 746
+55	15770	2.4	1	14991 779
+56	16593	2.4	1	15885 708
+57	15558	2.4	1	14889 669
+58	12218	2.4	1	11569 649
+59	12787	2.4	1	12021 766
+60	14672	2.4	1	13980 692
+61	13770	2.4	1	13105 665
+62	15833	2.4	1	15150 683
+63	14752	2.4	1	14126 626
+64	15833	2.4	1	15017 816
+65	21024	2.4	1	20107 917
+66	16430	2.4	1	15700 730
+67	12287	2.4	1	11721 566
+68	10037	2.4	1	9559 478
+69	8633	2.4	1	8173 460
+70	8798	2.4	1	8315 483
+71	11910	2.4	1	11373 537
+72	10991	2.4	1	10467 524
+73	13062	2.4	1	12533 529
+74	13268	2.4	1	12679 589
+75	13142	2.4	1	12485 657
+76	13770	2.4	1	13145 625
+77	12730	2.4	1	12133 597
+78	14435	2.4	1	13838 597
+79	20026	2.4	1	19243 783
+80	13157	2.4	1	12504 653
+81	9087	2.4	1	8558 529
+82	8656	2.4	1	8210 446
+83	9292	2.4	1	8876 416
+84	8289	2.4	1	7852 437
+85	5908	2.4	1	5576 332
+86	5505	2.4	1	5174 331
+87	6063	2.4	1	5758 305
+88	6373	2.4	1	6077 296
+89	5942	2.4	1	5655 287
+90	5461	2.4	1	5156 305
+91	5480	2.4	1	5188 292
+92	6961	2.4	1	6579 382
+93	8167	2.4	1	7812 355
+94	9301	2.4	1	8905 396
+95	9505	2.4	1	9113 392
+96	8773	2.4	1	8371 402
+97	7866	2.4	1	7512 354
+98	7005	2.4	1	6680 325
+99	5850	2.4	1	5519 331
+100	4775	2.4	1	4463 312
+101	4451	2.4	1	4125 326
+102	5124	2.4	1	4815 309
+103	6421	2.4	1	6111 310
+104	7926	2.4	1	7578 348
+105	7528	2.4	1	7153 375
+106	6537	2.4	1	6202 335
+107	5558	2.4	1	5206 352
+108	4848	2.4	1	4547 301
+109	4076	2.4	1	3801 275
+110	3351	2.4	1	3086 265
+111	3070	2.4	1	2817 253
+112	3196	2.4	1	2954 242
+113	3819	2.4	1	3550 269
+114	4144	2.4	1	3868 276
+115	3818	2.4	1	3517 301
+116	3023	2.4	1	2719 304
+117	2341	2.4	1	2072 269
+118	1975	2.4	1	1762 213
+119	1911	2.4	1	1653 258
+120	1827	2.4	1	1561 266
+121	1469	2.4	1	1206 263
+122	944	2.4	1	729 215
+123	359	2.4	1	153 206
+124	273	2.4	1	81 192
+125	245	2.4	1	42 203
+126	251	2.4	1	59 192
+127	252	2.4	1	32 220
+128	239	2.4	1	36 203
+129	250	2.4	1	28 222
+130	197	2.4	1	20 177
+131	242	2.4	1	10 232
+132	199	2.4	1	9 190
+133	266	2.4	1	7 259
+134	217	2.4	1	2 215
+135	271	2.4	1	4 267
+136	247	2.4	1	5 242
+137	322	2.4	1	10 312
+138	227	2.4	1	7 220
+139	358	2.4	1	12 346
+140	359	2.4	1	11 348
+141	596	2.4	1	13 583
+142	160	2.4	1	3 157
+143	234	2.4	1	3 231
+144	159	2.4	1	2 157
+145	224	2.4	1	3 221
+146	272	2.4	1	3 269
+147	181	2.4	1	2 179
+148	55	2.4	1	0 55
+149	46	2.4	1	0 46
+
+RUN STATISTICS FOR INPUT FILE: data/merged_raw_reads/S1-Hvariegata-F.R2.fastq.gz
+=============================================
+39612437 sequences processed in total
+The length threshold of paired-end sequences gets evaluated later on (in the validation step)
+
+Validate paired-end files S1-Hvariegata-F.R1_trimmed.fq.gz and S1-Hvariegata-F.R2_trimmed.fq.gz
+file_1: S1-Hvariegata-F.R1_trimmed.fq.gz, file_2: S1-Hvariegata-F.R2_trimmed.fq.gz
+
+
+>>>>> Now validing the length of the 2 paired-end infiles: S1-Hvariegata-F.R1_trimmed.fq.gz and S1-Hvariegata-F.R2_trimmed.fq.gz <<<<<
+Writing validated paired-end Read 1 reads to S1-Hvariegata-F.R1_val_1.fq.gz
+Writing validated paired-end Read 2 reads to S1-Hvariegata-F.R2_val_2.fq.gz
+
+Total number of sequences analysed: 39612437
+
+Number of sequence pairs removed because at least one read was shorter than the length cutoff (1 bp): 473 (0.00%)
+
+Deleting both intermediate output files S1-Hvariegata-F.R1_trimmed.fq.gz and S1-Hvariegata-F.R2_trimmed.fq.gz
+
+====================================================================================================
+
+Done.
+Checking the quality of the reads using fastqc tool version 0.11.9
+Found version FastQC v0.11.9
+Evaluating the quality of the cleaned reads...
+Started analysis of S1-Hvariegata-F.R1_val_1.fq.gz
+Started analysis of S1-Hvariegata-F.R2_val_2.fq.gz
+Approx 5% complete for S1-Hvariegata-F.R1_val_1.fq.gz
+Approx 5% complete for S1-Hvariegata-F.R2_val_2.fq.gz
+Approx 10% complete for S1-Hvariegata-F.R1_val_1.fq.gz
+Approx 10% complete for S1-Hvariegata-F.R2_val_2.fq.gz
+Approx 15% complete for S1-Hvariegata-F.R2_val_2.fq.gz
+Approx 15% complete for S1-Hvariegata-F.R1_val_1.fq.gz
+Approx 20% complete for S1-Hvariegata-F.R2_val_2.fq.gz
+Approx 20% complete for S1-Hvariegata-F.R1_val_1.fq.gz
+Approx 25% complete for S1-Hvariegata-F.R2_val_2.fq.gz
+Approx 25% complete for S1-Hvariegata-F.R1_val_1.fq.gz
+Approx 30% complete for S1-Hvariegata-F.R2_val_2.fq.gz
+Approx 30% complete for S1-Hvariegata-F.R1_val_1.fq.gz
+Approx 35% complete for S1-Hvariegata-F.R2_val_2.fq.gz
+Approx 35% complete for S1-Hvariegata-F.R1_val_1.fq.gz
+Approx 40% complete for S1-Hvariegata-F.R2_val_2.fq.gz
+Approx 40% complete for S1-Hvariegata-F.R1_val_1.fq.gz
+Approx 45% complete for S1-Hvariegata-F.R2_val_2.fq.gz
+Approx 45% complete for S1-Hvariegata-F.R1_val_1.fq.gz
+Approx 50% complete for S1-Hvariegata-F.R2_val_2.fq.gz
+Approx 50% complete for S1-Hvariegata-F.R1_val_1.fq.gz
+Approx 55% complete for S1-Hvariegata-F.R2_val_2.fq.gz
+Approx 55% complete for S1-Hvariegata-F.R1_val_1.fq.gz
+Approx 60% complete for S1-Hvariegata-F.R2_val_2.fq.gz
+Approx 60% complete for S1-Hvariegata-F.R1_val_1.fq.gz
+Approx 65% complete for S1-Hvariegata-F.R2_val_2.fq.gz
+Approx 65% complete for S1-Hvariegata-F.R1_val_1.fq.gz
+Approx 70% complete for S1-Hvariegata-F.R2_val_2.fq.gz
+Approx 70% complete for S1-Hvariegata-F.R1_val_1.fq.gz
+Approx 75% complete for S1-Hvariegata-F.R2_val_2.fq.gz
+Approx 75% complete for S1-Hvariegata-F.R1_val_1.fq.gz
+Approx 80% complete for S1-Hvariegata-F.R2_val_2.fq.gz
+Approx 80% complete for S1-Hvariegata-F.R1_val_1.fq.gz
+Approx 85% complete for S1-Hvariegata-F.R2_val_2.fq.gz
+Approx 85% complete for S1-Hvariegata-F.R1_val_1.fq.gz
+Approx 90% complete for S1-Hvariegata-F.R2_val_2.fq.gz
+Approx 90% complete for S1-Hvariegata-F.R1_val_1.fq.gz
+Approx 95% complete for S1-Hvariegata-F.R2_val_2.fq.gz
+Approx 95% complete for S1-Hvariegata-F.R1_val_1.fq.gz
+Analysis complete for S1-Hvariegata-F.R2_val_2.fq.gz
+Analysis complete for S1-Hvariegata-F.R1_val_1.fq.gz
+Generating report using Multiqc version 1.11
+[WARNING]         multiqc : MultiQC Version v1.13 now available!
+[INFO   ]         multiqc : This is MultiQC v1.9
+[INFO   ]         multiqc : Template    : default
+[INFO   ]         multiqc : Searching   : /scratch/fkebaso/hippo/hvariegata/results/quality_reports/quality_clean_reads
+[INFO   ]          fastqc : Found 2 reports
+[INFO   ]         multiqc : Compressing plot data
+[WARNING]         multiqc : Previous MultiQC output found! Adjusting filenames..
+[WARNING]         multiqc : Use -f or --force to overwrite existing reports instead
+[INFO   ]         multiqc : Report      : results/quality_reports/multiqc_clean_reads/multiqc_report_4.html
+[INFO   ]         multiqc : Data        : results/quality_reports/multiqc_clean_reads/multiqc_data_4
+[INFO   ]         multiqc : MultiQC complete
+Done.
