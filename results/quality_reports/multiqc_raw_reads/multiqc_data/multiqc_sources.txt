@@ -1,3 +1,0 @@
-Module	Section	Sample Name	Source
-FastQC	all_sections	S1-Hvariegata-F.R2	/scratch/fkebaso/hippo/hvariegata/results/quality_reports/quality_raw_reads/S1-Hvariegata-F.R2_fastqc.zip
-FastQC	all_sections	S1-Hvariegata-F.R1	/scratch/fkebaso/hippo/hvariegata/results/quality_reports/quality_raw_reads/S1-Hvariegata-F.R1_fastqc.zip

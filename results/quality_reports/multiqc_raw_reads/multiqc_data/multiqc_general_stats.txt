@@ -1,3 +1,0 @@
-Sample	FastQC_mqc-generalstats-fastqc-percent_duplicates	FastQC_mqc-generalstats-fastqc-percent_gc	FastQC_mqc-generalstats-fastqc-avg_sequence_length	FastQC_mqc-generalstats-fastqc-percent_fails	FastQC_mqc-generalstats-fastqc-total_sequences
-S1-Hvariegata-F.R1	36.98183303312316	28.0	149.0	9.090909090909092	39612437.0
-S1-Hvariegata-F.R2	36.25339208075171	28.0	149.0	18.181818181818183	39612437.0
