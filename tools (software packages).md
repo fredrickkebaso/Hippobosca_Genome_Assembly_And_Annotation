@@ -10,7 +10,7 @@
 
 [cd-hit v 4.8.1](https://github.com/weizhongli/cdhit/wiki/2.-Installation)
 
-[velvetOptimiser](https://github.com/tseemann/VelvetOptimiser)
+[velvetOptimiser v  2.2.6](https://github.com/tseemann/VelvetOptimiser)
 
 [RepeatMasker 4.1.4](https://www.repeatmasker.org/RepeatMasker/)
 
