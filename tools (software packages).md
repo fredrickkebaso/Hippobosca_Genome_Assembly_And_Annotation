@@ -12,3 +12,11 @@
 
 [velvetOptimiser](https://github.com/tseemann/VelvetOptimiser)
 
+[RepeatMasker 4.1.4](https://www.repeatmasker.org/RepeatMasker/)
+
+[BUSCO 5.4.4](https://gitlab.com/ezlab/busco)
+
+[Augustus v 3.5.0](https://github.com/Gaius-Augustus/Augustus#installation)
+
+
+
