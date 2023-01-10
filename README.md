@@ -47,6 +47,4 @@ Specific Objectives
 
 ## Software and Packages
 
-Alll tools used have been documented [here](https://github.com/fredrickkebaso/Hippobosca-De-novo-Genome-Assembly/blob/main/tools%20(software%20packages)
-
-
+Alll tools used have been documented [here](https://github.com/fredrickkebaso/Hippobosca-De-novo-Genome-Assembly/blob/main/tools%20(software%20packages).md)
