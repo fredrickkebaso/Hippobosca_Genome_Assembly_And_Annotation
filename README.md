@@ -20,7 +20,7 @@ This study focuses on the de novo genome assembly of three Hippoboscus species;
 
 The availing of the genome assembly will provide the knowledge base upon which vector competence, epidemiology and effective control strategies of the hippoboscus flies will be based. 
 
-Furthermore, it will spur molecular-based insights into the genetics of these organisms and other research that will provide answers to many scientific questions that have remained pending for decades as discussed in this [research question](https://github.com/fredrickkebaso/Hippobosca-De-novo-Genome-Assembly/blob/main/documents/Literature/Research%20question%20or%20Gaps.md).
+Furthermore, it will spur molecular-based insights into the genetics of these organisms and other research that will provide answers to many scientific questions that have remained pending for decades as discussed in this [research question](https://github.com/fredrickkebaso/Hippobosca-De-novo-Genome-Assembly/blob/main/documents/Literature/Research%20question%20or%20Gaps.md).)
 
 
  ## Statement of objectives
@@ -47,7 +47,6 @@ Specific Objectives
 
 ## Software and Packages
 
-1. FastQC v0.11.9
-2. [MultiQC v1.9](http://multiqc.info)
+Alll tools used have been documented [here](https://github.com/fredrickkebaso/Hippobosca-De-novo-Genome-Assembly/blob/main/tools%20(software%20packages)
 
 
