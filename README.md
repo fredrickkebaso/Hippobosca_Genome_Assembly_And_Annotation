@@ -15,9 +15,6 @@ This study focuses on the de novo genome assembly of three Hippoboscus species;
 ***H.camelina***; Adapted from ICIPE Insect of the month, photo by Dr. Dan Masiga.; ***H.variegata*** - Adapted from Namibia discussion forum.; ***H.longipennis*** - Adapted from BOLD, uploaded by Dr. Joel Bargul, ICIPE.
 
 
-
-
-
 The availing of the genome assembly will provide the knowledge base upon which vector competence, epidemiology and effective control strategies of the hippoboscus flies will be based. 
 
 Furthermore, it will spur molecular-based insights into the genetics of these organisms and other research that will provide answers to many scientific questions that have remained pending for decades as discussed in this [research question](https://github.com/fredrickkebaso/Hippobosca-De-novo-Genome-Assembly/blob/main/documents/Literature/Research%20question%20or%20Gaps.md).)
@@ -30,13 +27,11 @@ A reference genome provides comprehensive, unbiased genomic information about an
 ### Main Objective 
 
 - To construct a whole genome assembly of H. variegata, H. longipennis and H. camelina and describe the genes responsible for chemosensing in Hippobosca.
-Specific Objectives
 
 ### Specific Objecives
 
 - To establish whole genome assembly for H. variegata, H. longipennis and H. camelina.
 - To identify the genomic architecture and gene content of the chemosensory genes in the three Hippobosca species.
-
 
 ## Analysis workflow
 
