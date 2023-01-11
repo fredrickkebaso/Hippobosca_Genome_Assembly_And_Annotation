@@ -26,12 +26,12 @@ A reference genome provides comprehensive, unbiased genomic information about an
 
 ### Main Objective 
 
-- To construct a whole genome assembly of H. variegata, H. longipennis and H. camelina and describe the genes responsible for chemosensing in Hippobosca.
+- To construct a whole genome assembly of *H. variegata, H. longipennis* and *H. camelina* and describe the genes responsible for chemosensing in Hippobosca.
 
 ### Specific Objecives
 
-- To establish whole genome assembly for H. variegata, H. longipennis and H. camelina.
-- To identify the genomic architecture and gene content of the chemosensory genes in the three Hippobosca species.
+- To establish whole genome assembly for *H. variegata, H. longipennis* and *H. camelina*.
+- To identify the genomic architecture and gene content of the chemosensory genes in the three *Hippobosca* species.
 
 ## Analysis workflow
 
