@@ -1,4 +1,4 @@
-# Hippoboscus De novo Genome Assembly,Annotation and Phylogenetic analysis
+# De-novo-Genome-Assembly-and-chemosensory-gene-annotation-in-three-Hippobosca-species
 
 
 ## Background of the study
