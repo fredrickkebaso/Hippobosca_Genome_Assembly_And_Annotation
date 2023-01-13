@@ -1,10 +1,10 @@
 ## Contains analysis codes, programmes and script usage Instructions
 
-Create a working directory and cd to it. All scripts run from the working directory.
+__General scripts__ - Combines analysis of the three genomes.
 
-Download the data sets into the **Data** directory 
+__Misc scripts__ - Intermediary processing scripts
 
-### 01. Quality check and generation of multiqc report
-```
-01_qualitycheck.sh
-```
+__Hvariegata scripts__ - Customized for individual species (hvariegata) genome analysis
+
+
+
