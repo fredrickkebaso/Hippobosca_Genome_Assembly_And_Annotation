@@ -8,13 +8,13 @@ echo Checking the quality of the reads using fastqc. Reccomended version 0.11.9.
 
 echo Found version `fastqc --version`
 
-mkdir -p results/quality_reports/{fastqc_raw_reads,multiqc_raw_reads}
+mkdir -p results/quality_reports/fastqc_raw_reads,multiqc_raw_reads
 
 fastqc data/merged_raw_reads/*.fastq.gz -t 8 -o results/quality_reports/fastqc_raw_reads
 
 #General Report using Multiqc version 1.11
 
-echo Combining quality reports using multiqc. Reccomended 1.13.
+echo Combining quality reports using multiqc. Reccomended version 1.13.
 
 echo Found `multiqc --version`
 
