@@ -24,7 +24,7 @@ Each gene familly sequences should be downloaded to their corresponding director
 (protein_name: "odorant binding protein") AND ("Drosophila melanogaster" OR "Anopheles gambiae" OR Glossina OR "Musca domestica" OR "Ceratitis capitata")
 ```
 
-OR 
+**OR use** 
 
 **API URL using the streaming endpoint**
 
@@ -41,7 +41,7 @@ This endpoint is resource-heavy but will return all requested results.
 ```
 (protein_name: "chemosensory protein") AND ("Drosophila melanogaster" OR "Anopheles gambiae" OR Glossina OR "Musca domestica" OR "Ceratitis capitata")
 ```
-OR
+**OR use**
 
 **API URL using the streaming endpoint**
 
@@ -58,7 +58,7 @@ This endpoint is resource-heavy but will return all requested results.
 ```
 (protein_name: "Sensory Neuron Membrane protein") AND ("Drosophila melanogaster" OR "Anopheles gambiae" OR Glossina OR "Musca domestica" OR "Ceratitis capitata")
 ```
-OR
+**OR use**
 **API URL using the streaming endpoint**
 
 This endpoint is resource-heavy but will return all requested results.
@@ -74,7 +74,7 @@ This endpoint is resource-heavy but will return all requested results.
 ```
 (protein_name: "gustatory receptor") AND ("Drosophila melanogaster" OR "Anopheles gambiae" OR Glossina OR "Musca domestica" OR "Ceratitis capitata")
 ```
-OR
+**OR use**
 **API URL using the streaming endpoint**
 
 This endpoint is resource-heavy but will return all requested results.
@@ -90,7 +90,7 @@ This endpoint is resource-heavy but will return all requested results.
 ```
 (protein_name: "ionotropic glutamate receptor " OR "ionotropic receptor") AND ("Drosophila melanogaster" OR "Anopheles gambiae" OR Glossina OR "Musca domestica" OR "Ceratitis capitata")
 ```
-OR
+**OR use**
 **API URL using the streaming endpoint**
 
 This endpoint is resource-heavy but will return all requested results.
@@ -106,7 +106,7 @@ This endpoint is resource-heavy but will return all requested results.
 ```
 (protein_name: "odorant receptor ") AND ("Drosophila melanogaster" OR "Anopheles gambiae" OR Glossina OR "Musca domestica" OR "Ceratitis capitata")
 ```
-OR
+**OR use**
 **API URL using the streaming endpoint**
 
 This endpoint is resource-heavy but will return all requested results.
