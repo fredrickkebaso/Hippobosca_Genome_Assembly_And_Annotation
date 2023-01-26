@@ -10,13 +10,13 @@ echo Computing hvariegata_f_genome_stats using BUSCO. Recomended version 5.4.4..
 echo Found `busco --version` proceeding to metric computation...
 
 busco \
---in results/repeatmasker/hvariegata_f_genome_masked/k51_contigs.fa.masked \
+--in results/repeatmasker/hvariegata_f_genome_masked/contigs_30_50.fa.masked \
 --lineage diptera_odb10 \
---out k81_genome_stats \
+--out 30_50_genome_stats \
 --out_path results/busco_stats/hvariegata_f_genome_stats \
 --mode genome \
 --augustus \
---cpu 10 \
+--cpu 4 \
 --download_path results/busco_stats/hvariegata_f_genome_stats \
 --scaffold_composition \
 --update-data

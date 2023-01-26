@@ -2,7 +2,7 @@
 
 set -eu
 
-echo Cleaning data using trim_galore. Reccommended version 0.6.7
+echo Cleaning data using trim_galore. Recommended version 0.6.7
 
 echo Found version `trim_galore --version`
 
