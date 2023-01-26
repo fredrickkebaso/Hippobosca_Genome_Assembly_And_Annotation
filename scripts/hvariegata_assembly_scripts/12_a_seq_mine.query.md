@@ -28,7 +28,7 @@ Each gene familly sequences should be downloaded to their corresponding director
 
 This endpoint is resource-heavy but will return all requested results.
 
-https://rest.uniprot.org/uniprotkb/stream?compressed=true&format=fasta&query=%28%28protein_name%3A%20%22odorant%20binding%20protein%22%29%20AND%20%28%22Drosophila%20melanogaster%22%20OR%20%22Anopheles%20gambiae%22%20OR%20Glossina%20OR%20%22Musca%20domestica%22%20OR%20%22Ceratitis%20capitata%22%29%
+https://rest.uniprot.org/uniprotkb/stream?compressed=true&format=fasta&query=%28%28protein_name%3A%20%22odorant%20binding%20protein%22%29%20AND%20%28%22Drosophila%20melanogaster%22%20OR%20%22Anopheles%20gambiae%22%20OR%20Glossina%20OR%20%22Musca%20domestica%22%20OR%20%22Ceratitis%20capitata%22%29%29
 
 
 ### 2) Chemosensory protein (CSPs)
