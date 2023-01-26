@@ -4,7 +4,7 @@ set -eu
 
 #Quality check of raw reads
 
-echo Checking the quality of the reads using fastqc. Reccomended version 0.11.9.
+echo Checking the quality of the reads using fastqc. Recomended version 0.11.9.
 
 echo Found version `fastqc --version`
 
