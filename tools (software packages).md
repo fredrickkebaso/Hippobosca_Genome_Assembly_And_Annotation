@@ -10,6 +10,8 @@
 
 [cd-hit v 4.8.1](https://github.com/weizhongli/cdhit/wiki/2.-Installation)
 
+[velevt v 1.2.10](https://github.com/dzerbino/velvet/tree/v1.2.10)
+
 [velvetOptimiser v  2.2.6](https://github.com/tseemann/VelvetOptimiser)
 
 [RepeatMasker 4.1.4](https://www.repeatmasker.org/RepeatMasker/)
@@ -18,5 +20,6 @@
 
 [Augustus v 3.5.0](https://github.com/Gaius-Augustus/Augustus#installation)
 
+[BLAST 2.13.0+](https://www.ncbi.nlm.nih.gov/books/NBK569861/)
 
-
+[
