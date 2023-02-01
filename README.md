@@ -43,4 +43,4 @@ A reference genome provides comprehensive, unbiased genomic information about an
 
 ## Software and Packages
 
-All tools used have been documented [here](https://github.com/fredrickkebaso/Hippobosca-De-novo-Genome-Assembly/blob/main/tools%20(software%20packages).md)
+All tools used have been documented [here](https://github.com/fredrickkebaso/Whole-Genome-Assembly-and-chemosensory-gene-annotation-in-Hippobosca./blob/main/Tools%20-%20software%20packages%20-%20.md)
