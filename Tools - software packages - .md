@@ -10,6 +10,8 @@
 
 [cd-hit v-4.8.1](https://github.com/weizhongli/cdhit/wiki/2.-Installation)
 
+[kmergenie v-1.7051](http://kmergenie.bx.psu.edu/)
+
 [velevt v-1.2.10](https://github.com/dzerbino/velvet/tree/v1.2.10)
 
 [velvetOptimiser v-2.2.6](https://github.com/tseemann/VelvetOptimiser)
@@ -22,4 +24,4 @@
 
 [BLAST v-2.13.0+](https://www.ncbi.nlm.nih.gov/books/NBK569861/)
 
-[kmergenie v-1.7051](http://kmergenie.bx.psu.edu/)
+
