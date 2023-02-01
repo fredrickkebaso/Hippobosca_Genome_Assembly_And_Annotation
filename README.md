@@ -35,9 +35,10 @@ A reference genome provides comprehensive, unbiased genomic information about an
 
 ## Analysis workflow
 
-![De_novo_Genome-Assembly workflow](https://user-images.githubusercontent.com/60787991/210818804-4b2e1f3a-d8b8-4eee-8788-8411f8b62c65.jpeg)
+![De novo assembly workflow](https://user-images.githubusercontent.com/60787991/215972147-e1667208-7ac9-408d-a475-096ccb4b57b0.png)
 
-![Chemosensory gene prediction and annotation](https://user-images.githubusercontent.com/60787991/210818922-12183653-71f9-4738-9ca6-2a5be8ac62e2.jpeg)
+![Chemosensory_gene_annoatation_workflow](https://user-images.githubusercontent.com/60787991/215972198-01592f5e-b39e-41c1-a5df-3985b40a92a9.png)
+
 
 
 ## Software and Packages
