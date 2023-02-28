@@ -14,9 +14,10 @@ do
 #gunzip ${datafile}/*.fasta.gz
 file=${datafile}/*.fasta
 base=$(basename $file .fasta)
+query="results/augustus_annotations/protein_seqs_masked.fa"
 
-echo Creating databse for ${base} sequences... 
-
+echo ""
+echo Creating database for ${base} sequences... 
 makeblastdb \
 -in ${file} \
 -input_type 'fasta' \
@@ -24,10 +25,12 @@ makeblastdb \
 -title ${datafile}/${base}_db \
 -out ${datafile}/${base}.fa
 
-echo Blasting your protein sequences against the constructed database.
+echo Running Blastp...
+echo Query: $query
+echo Database: ${datafile}/${base}_db
 
 blastp \
--query results/augustus_annotations/protein_seqs_masked.fa \
+-query ${query} \
 -db ${datafile}/${base}.fa \
 -out results/blast_homologs/e_value-5/${base}_homolog.txt \
 -num_threads 4 \
@@ -57,7 +60,7 @@ done;
 #Scoring matrix name (normally BLOSUM62)
 
 
-#rm results/blast_homologs/e_value-5/csps_homolog.txt
+
 
 
 
