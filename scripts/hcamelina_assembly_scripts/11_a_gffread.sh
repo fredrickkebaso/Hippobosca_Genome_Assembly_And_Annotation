@@ -5,8 +5,8 @@ set -eu
 #Cleaning up the gff file 
 
 gffread \
--g results/velvet_out/hvariegata_female_genome/contigs_25_25.fa \
-results/augustus_annotations/hvariegata_f_genome_ann_25_25.gff \
+-g results/velvet_out/hcamelina_genome.fa \
+results/augustus_annotations/hcamelina_m_genome_ann.gff \
 -y \
 results/augustus_annotations/protein_seqs.fa 
 

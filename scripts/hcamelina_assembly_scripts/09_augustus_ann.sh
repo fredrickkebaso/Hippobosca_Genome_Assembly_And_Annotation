@@ -14,8 +14,8 @@ augustus \
 --UTR=on \
 --gff3=on \
 --alternatives-from-sampling=true \
---outfile=results/augustus_annotations/hcamelina_m_genome_ann_25_25.gff \
+--outfile=results/augustus_annotations/hcamelina_m_genome_ann.gff \
 --species=fly \
-results/repeatmasker/hcamelina_m_genome_masked/contigs_25_25.fa.masked
+results/repeatmasker/hcamelina_genome.fa.masked
 
 echo Completed annotation successfully !!!

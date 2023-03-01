@@ -1,19 +1,23 @@
 #!/bin/bash
-#maks repeats in the assembled genome 
+#masks repeats in the assembled genome 
 
-echo Masking repeats using RepeatMasker version 4.1.4
+set -eu
 
-mkdir -p results/repeatmasker/hcamelina_m_genome_masked
+echo Masking repeats: Reccomended, RepeatMasker version 4.1.4
+echo Found `RepeatMasker -v`
+echo Proceeding with masking...
+
+mkdir -p results/repeatmasker
 
 RepeatMasker \
 -e ncbi \
 -noisy \
--dir results/repeatmasker/hcamelina_m_genome_masked \
+-dir results/repeatmasker \
 -a \
 -small \
 -poly \
 -source \
--gff results/velvet_out/hcamelina_memale_genome/k61_contigs.fa
+-gff results/velvet_out/hcamelina_genome.fa
 #-e- search engine, 
 #-noisy-prints progress to the stdout, 
 #-a produces alignment file, 
@@ -21,4 +25,4 @@ RepeatMasker \
 #-source-Includes for each annotation the HSP "evidence"., 
 #-gff-Creates an additional Gene Feature Finding format output
 
-echo Done
+echo Repeat masking completed successfully !!!

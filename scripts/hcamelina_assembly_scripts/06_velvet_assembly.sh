@@ -7,19 +7,30 @@ set -eu
 #Running velvet
 module load velvet
 
-mkdir -p results/velvet_out/Hcamelina_male_genome
+mkdir -p results/velvet_out
 
 echo Assembling Hcamelina_male_genome using velvet. Recommended Version 1.2.10.
 
-velveth results/velvet_out/Hcamelina_male_genome 51 \
+velveth results/velvet_out 41 \
 -fastq.gz -shortPaired \
 -separate \
 results/clean_reads/S4-Hcamelina-M2.R1_val_1.fq.gz \
 results/clean_reads/S4-Hcamelina-M2.R2_val_2.fq.gz && \
-velvetg results/velvet_out/Hcamelina_male_genome \
+velvetg results/velvet_out/ \
 -exp_cov auto \
 -cov_cutoff auto \
 -ins_length 149 
+# Remove intermediate files 
+
+rm results/velvet_out/{Graph2,LastGraph,Log,PreGraph,Roadmaps,Sequences} 
+
+#Rename the generated assembly, contigs.fa to match the organism,hcamelina
+
+mv results/velvet_out/contigs.fa results/velvet_out/hcamelina_genome.fa 
+
+#Rename the stats file to match the organism
+
+mv results/velvet_out/stats.txt results/velvet_out/hcamelina_genome_stats.txt
 
 echo Completed assembling hcamellina_male genome with Velvet successfully !!!!
 

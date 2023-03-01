@@ -2,22 +2,22 @@
 
 set -eu
 
-#Constructing a protein databse for the known chemosensory genes
+#Constructing a protein database for the known chemosensory genes and searches the predicted genes against the databse
 
 echo Performing Blast search using `blastp -version`
 
 mkdir -p results/blast_homologs/e_value-5
 
-for datafile in /home/kebaso/Documents/projects/hippo/hvariegata/data/prot_database/*
+for datafile in /home/kebaso/Documents/projects/hippo/databases/prot_database/*
 do 
 
-#gunzip ${datafile}/*.fasta.gz
 file=${datafile}/*.fasta
 base=$(basename $file .fasta)
 query="results/augustus_annotations/protein_seqs_masked.fa"
 
 echo ""
 echo Creating database for ${base} sequences... 
+
 makeblastdb \
 -in ${file} \
 -input_type 'fasta' \
@@ -37,8 +37,10 @@ blastp \
 -evalue 0.00001 \
 -outfmt 7
 
-
 done;
+
+echo Blasting completed successfully!!!
+
 #-evalue 0.00001 \
 #-title; specify the title of the BLAST database that will be created. 
 #-out;specify the prefix of the output files that will be created.
