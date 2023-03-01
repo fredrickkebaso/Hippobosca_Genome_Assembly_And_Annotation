@@ -1,10 +1,12 @@
+#!/bin/python3
+
 # open the BLASTp text file
 #Extracts queries with hits > 1, Fields and the number of hits found and the corresponding hits.
 
 import os
 
 file_path= "results/blast_homologs/e_value-5"
-
+print("Extracting hits...")
 for file in os.listdir(file_path):
     if file.endswith("_homolog.txt"):
         # if file.endswith("hits.txt"):
@@ -27,5 +29,7 @@ for file in os.listdir(file_path):
                     elif not line.startswith("#"):
                         # this is the start of a hit
                         prot_hits.write(line)
+        print(f"Hits written to {prot_file} ")
+
     
 

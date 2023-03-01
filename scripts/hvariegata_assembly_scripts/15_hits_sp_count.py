@@ -1,5 +1,7 @@
 #!/bin/python3
 
+#Extracts query hits per node per a species
+
 import pandas as pd
 import os
 

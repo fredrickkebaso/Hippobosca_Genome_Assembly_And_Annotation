@@ -3,7 +3,6 @@
 #Counts the number of genes per family
 
 import os
-import pandas as pd
 
 infile= "results/blast_homologs/e_value-5"
 
@@ -19,9 +18,5 @@ for file in os.listdir(infile):
                     count +=1
             fam_name=file.split('_')[0]
             gene_dict[fam_name]=int(count)
-# index_list=[i for i in range (0,len(gene_dict))]
-
-# df=pd.DataFrame(gene_dict, columns=['hv'])
-# index_label=range(0,len(gene_dict))
 print(gene_dict)
 
