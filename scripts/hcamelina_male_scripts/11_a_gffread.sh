@@ -1,17 +1,18 @@
 #!/bin/bash
 
+#Extracts or filters a protein fasta file with the translation of CDS for each record using the augustus prediction file
+
 set -eu
 
 #Cleaning up the gff file 
 
 gffread \
--g results/velvet_out/hcamelina_genome.fa \
+-g results/velvet_out/hcamelina_m_genome.fa \
 results/augustus_annotations/hcamelina_m_genome_ann.gff \
 -y \
 results/augustus_annotations/protein_seqs.fa 
 
 
 # -g file containing the genome sequences,
-#-w  file where the protein sequences will be saved,( w-write in the FASTA defline all the exon  coordinates projected onto the spliced sequence)
 # input.gff is the GFF file from which the sequences will be extracted and 
 # -y option will extract the CDS and translate them to proteins sequences.
