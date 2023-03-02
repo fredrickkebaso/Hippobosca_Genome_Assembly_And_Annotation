@@ -17,7 +17,7 @@ RepeatMasker \
 -small \
 -poly \
 -source \
--gff results/velvet_out/hcamelina_genome.fa
+-gff results/velvet_out/hcamelina_m_genome.fa
 #-e- search engine, 
 #-noisy-prints progress to the stdout, 
 #-a produces alignment file, 
@@ -25,4 +25,3 @@ RepeatMasker \
 #-source-Includes for each annotation the HSP "evidence"., 
 #-gff-Creates an additional Gene Feature Finding format output
 
-echo Repeat masking completed successfully !!!

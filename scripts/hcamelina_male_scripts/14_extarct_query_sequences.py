@@ -4,7 +4,6 @@
 #Extracts queries with hits > 1, Fields and the number of hits found and the corresponding hits.
 
 import os
-
 file_path= "results/blast_homologs/e_value-5"
 print("Extracting hits...")
 for file in os.listdir(file_path):

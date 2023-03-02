@@ -26,11 +26,11 @@ rm results/velvet_out/{Graph2,LastGraph,Log,PreGraph,Roadmaps,Sequences}
 
 #Rename the generated assembly, contigs.fa to match the organism,hcamelina
 
-mv results/velvet_out/contigs.fa results/velvet_out/hcamelina_genome.fa 
+mv results/velvet_out/contigs.fa results/velvet_out/hcamelina_m_genome.fa 
 
 #Rename the stats file to match the organism
 
-mv results/velvet_out/stats.txt results/velvet_out/hcamelina_genome_stats.txt
+mv results/velvet_out/stats.txt results/velvet_out/hcamelina_m_genome_stats.txt
 
 echo Completed assembling hcamellina_male genome with Velvet successfully !!!!
 

@@ -8,7 +8,7 @@ print("Extracting gene sequences from genome file...")
 
 #Extracts raw genome node/queries to a dictionery
 sequences = {}
-with open('results/velvet_out/hcamelina_genome.fa','r') as file:
+with open('results/velvet_out/hcamelina_m_genome.fa','r') as file:
     genome_seq_id = ""
     genome_seq = ""
     for genome_line in file:

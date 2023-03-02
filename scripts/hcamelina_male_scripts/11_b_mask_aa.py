@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 
 #The script replaces unknown ammino acids (generated with a period (.) by augustus ) with N, this allows blasting as periods are not recognised by the blastp tool.
+print("Masking unknown amino acids with 'N'...")
 
 with open('results/augustus_annotations/protein_seqs.fa','r') as fasta_file:
     with open ('results/augustus_annotations/protein_seqs_masked.fa','w') as prot_seq:
@@ -12,6 +13,7 @@ with open('results/augustus_annotations/protein_seqs.fa','r') as fasta_file:
                 new_seq=seq.replace(".","N")
                 prot_seq.write(new_seq)
 
+print("Masking completed successfully!!!")
 #The letter N is used to represent an ambiguous amino acid in a protein sequence. 
 # It is often used when the exact amino acid at a particular position in a sequence is not known or cannot be determined. 
 # N can represent any of the 20 standard amino acids.

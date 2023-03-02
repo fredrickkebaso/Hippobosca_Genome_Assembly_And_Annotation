@@ -37,6 +37,8 @@ blastp \
 -evalue 0.00001 \
 -outfmt 7
 
+echo Blast results written to: results/blast_homologs/e_value-5/${base}_homolog.txt
+
 done;
 
 echo Blasting completed successfully!!!
