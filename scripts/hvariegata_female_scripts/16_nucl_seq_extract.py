@@ -2,13 +2,13 @@
 
 import os
 
-#Extracts gene predicted gene sequences from a genome file
+#Extracts gene sequences for the identified chemosensory gene homologs from a genome file
 
 print("Extracting gene sequences from genome file...")
 
 #Extracts raw genome node/queries to a dictionery
 sequences = {}
-with open('results/velvet_out/hvariegata_female_genome/contigs_25_25.fa','r') as file:
+with open('results/velvet_out/hvariegata_f_genome.fa','r') as file:
     genome_seq_id = ""
     genome_seq = ""
     for genome_line in file:
@@ -48,4 +48,4 @@ for file in os.listdir(infile_path):
                         if int(gene_id)==node:
                             line=f"{seq_id}\n{seq}\n"
                             seq_file.write(line)
-        print(f"Extracted sequences written to {gene_seq_file}")
+            print(f"Extracted sequences written to {gene_seq_file}")

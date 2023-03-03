@@ -1,11 +1,10 @@
 #!/bin/python3
 
-#Counts the number of genes per family
+#Counts the number of genes per family in the hit files
 
 import os
 
 infile= "results/blast_homologs/e_value-5"
-
 gene_dict={}
 for file in os.listdir(infile):
     if file.endswith("_gene_seqs.fa"):

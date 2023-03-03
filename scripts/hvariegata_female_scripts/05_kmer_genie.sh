@@ -7,7 +7,7 @@ for file in results/clean_reads/*.fq.gz
 
 do
 
-/home/kebaso/Documents/projects/hippo/kmergenie-1.7051/kmergenie $file \
+kmergenie $file \
 --diploid \
 -k 141 \
 -t 2 \
