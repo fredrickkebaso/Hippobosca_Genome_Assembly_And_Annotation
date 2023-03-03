@@ -1,19 +1,27 @@
 #!/bin/bash
-#maks repeats in the assembled genome 
 
-echo Masking repeats using RepeatMasker version 4.1.4
+#masks repeats in the assembled genome 
 
-mkdir -p results/repeatmasker/hvariegata_f_genome_masked
+set -eu
+
+echo Masking repeats: Reccomended, RepeatMasker version 4.1.4
+echo Found `RepeatMasker -v`
+echo Proceeding with masking...
+
+mkdir -p results/repeatmasker
 
 RepeatMasker \
 -e ncbi \
 -noisy \
--dir results/repeatmasker/hvariegata_f_genome_masked \
+-dir results/repeatmasker \
 -a \
 -small \
 -poly \
 -source \
--gff results/velvet_out/hvariegata_female_genome/k61_contigs.fa
+-gff \
+results/velvet_out/hvariegata_f_genome.fa
+
+
 #-e- search engine, 
 #-noisy-prints progress to the stdout, 
 #-a produces alignment file, 
@@ -21,4 +29,3 @@ RepeatMasker \
 #-source-Includes for each annotation the HSP "evidence"., 
 #-gff-Creates an additional Gene Feature Finding format output
 
-echo Done

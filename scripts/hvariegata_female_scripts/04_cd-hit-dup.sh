@@ -10,10 +10,10 @@ mkdir -p results/quality_reports/{fastqc_deduplicated_reads,multiqc_deduplicated
 echo De_duplicating cleaned reads using cd-hit. Recommended version 4.8.1.
 
 cd-hit-dup \
--i results/clean_reads/S1-Hvariegata-F.R1_val_1.fq \
--o results/de_duplicated_reads/S1-Hvariegata-F.R1.dedup.fq \
--i2 results/clean_reads/S1-Hvariegata-F.R2_val_2.fq \
--o2 results/de_duplicated_reads/S1-Hvariegata-F.R2.dedup.fq \
+-i results/clean_reads/S4-Hcamelina-M2.R1_val_1.fq \
+-o results/de_duplicated_reads/S4-Hcamelina-M2.R1.dedup.fq \
+-i2 results/clean_reads/S4-Hcamelina-M2.R2_val_2.fq \
+-o2 results/de_duplicated_reads/S4-Hcamelina-M2.R2.dedup.fq \
 
 echo Done.
 

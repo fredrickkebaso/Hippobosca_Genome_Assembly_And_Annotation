@@ -2,13 +2,15 @@
 
 set -eu
 
+module load fastqc/0.11.9
+
 #Quality check of raw reads
 
 echo Checking the quality of the reads using fastqc. Recomended version 0.11.9.
 
-echo Found version `fastqc --version`
+echo Found `fastqc --version`
 
-mkdir -p results/quality_reports/fastqc_raw_reads,multiqc_raw_reads
+mkdir -p results/quality_reports/{fastqc_raw_reads,multiqc_raw_reads}
 
 fastqc data/merged_raw_reads/*.fastq.gz -t 8 -o results/quality_reports/fastqc_raw_reads
 
