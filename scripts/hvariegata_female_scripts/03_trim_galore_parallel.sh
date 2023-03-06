@@ -1,10 +1,9 @@
 #!/bin/bash
 
 #Cleaning data removing adapters, trimming low quality bases and re-evaluating the quality of the cleaned reads
+
 set -eu
 
-module load trimgalore/0.6.5
-module load cutadapt/3.4
 
 echo Cleaning data using trim_galore. Recommended version 0.6.7
 
@@ -28,7 +27,7 @@ echo Combining quality reports using multiqc. Reccomended 1.13.
 
 echo Found `multiqc --version`
 
-multiqc -o results/quality_reports/multiqc_clean_reads results/quality_reports/fastqc_clean_reads
+#multiqc -o results/quality_reports/multiqc_clean_reads results/quality_reports/fastqc_clean_reads
 
 echo Done.
 

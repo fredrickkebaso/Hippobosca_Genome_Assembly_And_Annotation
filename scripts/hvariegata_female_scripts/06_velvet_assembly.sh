@@ -40,3 +40,4 @@ echo Completed assembling hvariegata female genome with Velvet successfully !!!!
 
 
 
+

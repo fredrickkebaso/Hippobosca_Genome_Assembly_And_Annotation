@@ -11,7 +11,8 @@ echo Proceeding with masking...
 mkdir -p results/repeatmasker
 
 RepeatMasker \
--e ncbi \
+-pa 4 \
+-e rmblast \
 -noisy \
 -dir results/repeatmasker \
 -a \
@@ -21,8 +22,8 @@ RepeatMasker \
 -gff \
 results/velvet_out/hvariegata_f_genome.fa
 
-
-#-e- search engine, 
+#-pa-(rallel) [number],The number of sequence batch jobs [50kb minimum] to run in parallel.RepeatMasker will fork off this number of parallel jobs, each running the search engine specified. 
+#-e- search engine, RepeatMasker-specific version of the NCBI BLAST search engine.It is a fast and sensitive tool for detecting repeated elements by aligning them to a repeat database. 
 #-noisy-prints progress to the stdout, 
 #-a produces alignment file, 
 #-small-Returns complete .masked sequence in lower case

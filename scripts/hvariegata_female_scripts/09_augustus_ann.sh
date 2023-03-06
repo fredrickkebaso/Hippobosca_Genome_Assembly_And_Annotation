@@ -14,6 +14,7 @@ augustus \
 --strand=both \
 --uniqueGeneId=true \
 --UTR=on \
+--cpus=12 \
 --gff3=on \
 --alternatives-from-sampling=true \
 --outfile=results/augustus_annotations/hvariegata_f_genome_ann.gff \

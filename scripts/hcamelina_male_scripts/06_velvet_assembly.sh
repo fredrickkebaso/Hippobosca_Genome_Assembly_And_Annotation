@@ -11,7 +11,7 @@ mkdir -p results/velvet_out
 
 echo Assembling Hcamelina_male_genome using velvet. Recommended Version 1.2.10.
 
-velveth results/velvet_out 41 \
+velveth results/velvet_out 51 \
 -fastq.gz -shortPaired \
 -separate \
 results/clean_reads/S4-Hcamelina-M2.R1_val_1.fq.gz \

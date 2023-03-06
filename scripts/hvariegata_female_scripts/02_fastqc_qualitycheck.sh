@@ -2,7 +2,6 @@
 
 set -eu
 
-module load fastqc/0.11.9
 
 #Quality check of raw reads
 

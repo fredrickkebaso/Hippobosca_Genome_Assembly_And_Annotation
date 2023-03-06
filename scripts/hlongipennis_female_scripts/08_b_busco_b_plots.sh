@@ -7,6 +7,6 @@ echo Plotting busco statistics...
 python \
 scripts/generate_plot.py \
 --working_directory \
-results/busco_stats/busco_plots
+results/busco_plots
 
 echo Plotting completed.

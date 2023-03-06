@@ -2,8 +2,6 @@
 
 set -eu
 
-module load fastqc/0.11.9
-
 #Quality check of raw reads
 
 echo Checking the quality of the reads using fastqc. Recomended version 0.11.9.
