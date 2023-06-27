@@ -1,0 +1,46 @@
+
+max_rd_len=149
+
+[LIB]
+
+#average insert size
+
+avg_ins=289
+
+#if sequence needs to be reversed
+
+reverse_seq=0
+
+#in which part(s) the reads are used
+
+asm_flags=3
+
+# use first 149 bps of each read
+
+rd_len_cutoff=149
+
+#in which order the reads are used while scaffolding
+rank=1
+
+# cutoff of pair number for a reliable connection (at least 3 for short insert size)
+pair_num_cutoff=3
+
+
+#minimum aligned length to contigs for a reliable read location (at least 32 for short insert size)
+
+map_len=32
+
+#a pair of fastq file, read 1 file should always be followed by read 2 file
+
+q1="/mnt/lustre/users/fkebaso/hippo/hvariegata_female/results/spades/corrected/S1-Hvariegata-F.R1_val_1.fq.00.0_0.cor.fastq.gz" 
+q2="/mnt/lustre/users/fkebaso/hippo/hvariegata_female/results/spades/corrected/S1-Hvariegata-F.R2_val_2.fq.00.0_0.cor.fastq.gz"
+
+#max_rd_len=149: specifies the maximum length of reads in the input files.
+#[LIB]: indicates the start of a new library section, where the parameters for a specific library are specified.
+#reverse_seq=0: specifies whether the reads need to be reverse-complemented before assembly. In this case, the value is set to 0, meaning no reverse-complementation is needed.
+#asm_flags=3: specifies which parts of the assembly process to run. In this case, the value is set to 3, which means both contig and scaffold construction will be performed.
+#rd_len_cutoff=20: specifies the minimum length of reads to be used in the assembly process. In this case, any reads with a length shorter than 20 base pairs will be excluded.
+#rank=1: specifies the order in which reads are used for scaffolding. In this case, reads are sorted by their quality scores and used in descending order.
+#pair_num_cutoff=3: specifies the minimum number of read pairs required to form a reliable connection between contigs during scaffolding.
+#map_len=32: specifies the minimum length of overlap required between a read and a contig for the read to be considered a reliable match.
+#q1 and q2: specify the input files containing the paired-end reads in FASTQ format.
