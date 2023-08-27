@@ -1,3 +1,0 @@
-gffread \
--T \
--o 
