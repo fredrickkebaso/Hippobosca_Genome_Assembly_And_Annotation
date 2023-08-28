@@ -44,16 +44,13 @@ The availing of the genome assembly will provide the knowledge base upon which v
 ![Workflows-Functional annotation drawio](https://github.com/fredrickkebaso/Hipposcus_Genome_Assembly_And_Annotation/assets/60787991/8094ff09-8587-447d-8a37-d9463a120cfb)
 
 
-
-
-
 ## Software and Packages
 
 All tools used have been documented [here](https://github.com/fredrickkebaso/Hipposcus_Genome_Assembly_And_Annotation/blob/main/software%20packages%20.md)
 
 ## Results
 
-### Objective 1. Assembled Genome Features
+## Objective 1. Assembled Genome Features
 
 
 | Metric | *Hippoboscus variegata* | *Hippoboscus camelina* |
@@ -68,10 +65,10 @@ All tools used have been documented [here](https://github.com/fredrickkebaso/Hip
 *The metric column represents the genome attribute, and the Hippoboscus variegata and Hippoboscus camelina column shows the genome score per feature.* 
 
 
-### Objective 2. Chemosensory genes annotated for *Hippoboscus* Species
+## Objective 2. Chemosensory genes annotated for *Hippoboscus* Species
 
 
-### Sample predicted Gustatory Receptor for _H. cameina_.
+### Sample predicted Gustatory Receptor for _H. camelina_.
 
 
 ![H camelina_Gustatory_receptor](https://github.com/fredrickkebaso/Hipposcus_Genome_Assembly_And_Annotation/assets/60787991/9a32c9f9-2630-4adc-82a8-12c22ebf15a3)
@@ -89,6 +86,13 @@ All tools used have been documented [here](https://github.com/fredrickkebaso/Hip
 **Figure 3: A group bar chart showing the predicted chemosensory gene counts per gene familly in _H. variegata_ and _H.  camelina_ alongside _Glossina morsitans _gene counts.** The Y-axis shows the actual gene counts per gene family. The X-axis shows the gene family; Chemosensory Specific Proteins (CSPs), Gustatory Proteins(GRs), Ionotropic Receptors (IRs), Odorant Binding Proteins (OBPs), and Odorant Receptors (ORs).
 
 
+## Phylogenetic Clustering 
 
+#### Phylogenetic tree for the predicted *Hippoboscus* chemosensory genes
+
+![Gene_tree13](https://github.com/fredrickkebaso/Hipposcus_Genome_Assembly_And_Annotation/assets/60787991/a82cbf0f-3cfa-40ff-bc1c-ef16dbcc737b)
+
+**Figure 4: shows the phylogenetic clustering of all the predicted putative chemosensory genes for _Hippoboscus_ species and selected models from the closest species.**
+Each chemosensory gene family is colored distinctly as defined by the key on the right of the figure. The tree leaves indicate the aligned genes with the prefix GMOY, representing selected models from _Glossina morsitans_ yale isolate, GBRI- _Glossina Brevipalpis_, and FBp - _Drosophila melanogaster_. The _Hippoboscus_ individual gene names (temporal working gene names) are prefixed as _H. variegata_ (hv) and _H. camelina_ as hc for all aligned gene sequences.  
 
 
