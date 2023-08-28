@@ -69,6 +69,11 @@ All tools used have been documented [here](https://github.com/fredrickkebaso/Hip
 
 ### Objective 2. Chemosensory genes annotated for *Hippoboscus* Species
 
+### Sample predicted Gustatory Receptor for _H. cameina_.
+
+![H camelina_Gustatory_receptor](https://github.com/fredrickkebaso/Hipposcus_Genome_Assembly_And_Annotation/assets/60787991/9a32c9f9-2630-4adc-82a8-12c22ebf15a3)
+
+
 ![hippoboscus_only_chem_genes](https://github.com/fredrickkebaso/Hipposcus_Genome_Assembly_And_Annotation/assets/60787991/bed7d50e-7901-48d3-b83b-932d9a1bd1dc)
 Figure 1: A group bar chart showing the predicted chemosensory gene counts per gene familly in _H. variegata_ and _H.  camelina_ gene counts. The Y-axis shows the actual gene counts per gene family. The X-axis shows the gene family; Chemosensory Specific Proteins (CSPs), Gustatory Proteins(GRs), Ionotropic Receptors (IRs), Odorant Binding Proteins (OBPs), and Odorant Receptors (ORs).
 
