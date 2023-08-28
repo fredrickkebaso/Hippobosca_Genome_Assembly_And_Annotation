@@ -98,9 +98,10 @@ Each chemosensory gene family is colored distinctly as defined by the key on the
 ## References 
 
 1. Zhang, Q., Zhou, Q., Han, S., Li, Y., Wang, Y., & He, H. (2023). The genome of sheep ked (Melophagus ovinus) reveals potential mechanisms underlying reproduction and narrower ecological niches. BMC Genomics, 24(1). https://doi.org/10.1186/s12864-023-09155-1
-2. 
-3. Bezerra-Santos, M. A., & Otranto, D. (2020). Keds, the enigmatic flies and their role as vectors of pathogens. Acta Tropica, 209(April), 105521. https://doi.org/10.1016/j.actatropica.2020.105521
 
-4. Bargul, J. L., Kidambasi, K. O., Getahun, M. N., Villinger, J., Copeland, R. S., Muema, J. M., Carrington, M., & Masiga, D. K. (2021). Transmission of ‘candidatus anaplasma camelii’ to mice and rabbits by camel-specific keds, hippobosca camelina. PLoS Neglected Tropical Diseases, 15(8), 1–20. https://doi.org/10.1371/journal.pntd.0009671
+2. Bezerra-Santos, M. A., & Otranto, D. (2020). Keds, the enigmatic flies and their role as vectors of pathogens. Acta Tropica, 209(April), 105521. https://doi.org/10.1016/j.actatropica.2020.105521
 
-5. Macharia, R., Mireji, P., Murungi, E., Murilla, G., Christoffels, A., Aksoy, S., & Masiga, D. (2016). Genome-Wide Comparative Analysis of Chemosensory Gene Families in Five Tsetse Fly Species. PLoS Neglected Tropical Diseases, 10(2). https://doi.org/10.1371/journal.pntd.0004421
+
+3. Bargul, J. L., Kidambasi, K. O., Getahun, M. N., Villinger, J., Copeland, R. S., Muema, J. M., Carrington, M., & Masiga, D. K. (2021). Transmission of ‘candidatus anaplasma camelii’ to mice and rabbits by camel-specific keds, hippobosca camelina. PLoS Neglected Tropical Diseases, 15(8), 1–20. https://doi.org/10.1371/journal.pntd.0009671
+
+4.  Macharia, R., Mireji, P., Murungi, E., Murilla, G., Christoffels, A., Aksoy, S., & Masiga, D. (2016). Genome-Wide Comparative Analysis of Chemosensory Gene Families in Five Tsetse Fly Species. PLoS Neglected Tropical Diseases, 10(2). https://doi.org/10.1371/journal.pntd.0004421
