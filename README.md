@@ -49,4 +49,4 @@ The availing of the genome assembly will provide the knowledge base upon which v
 
 ## Software and Packages
 
-All tools used have been documented [here](https://github.com/fredrickkebaso/Hipposcus_Genome_Assembly_And_Annotation/blob/main/software%20packages%20-%20.md)
+All tools used have been documented [here](https://github.com/fredrickkebaso/Hipposcus_Genome_Assembly_And_Annotation/blob/main/software%20packages%20.md)
