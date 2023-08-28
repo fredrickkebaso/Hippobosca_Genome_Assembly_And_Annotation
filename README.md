@@ -1,4 +1,4 @@
-# De-novo-Genome-Assembly-and-chemosensory-gene-annotation-in-three-Hippobosca-species
+# De-novo-Genome-Assembly-and-chemosensory-gene-annotation-in-_Hippobosca-variegata_-and-_Hippobosca camelina_
 
 
 ## Background of the study
