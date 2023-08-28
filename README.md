@@ -41,7 +41,8 @@ The availing of the genome assembly will provide the knowledge base upon which v
 
 ### Functional annotation Workflow
 
-![Workflows-Functional annotation drawio](https://github.com/fredrickkebaso/Hipposcus_Genome_Assembly_And_Annotation/assets/60787991/8094ff09-8587-447d-8a37-d9463a120cfb)
+![Workflows-Functional annotation drawio](https://github.com/fredrickkebaso/Hipposcus_Genome_Assembly_And_Annotation/assets/60787991/b5a1c11e-4608-47c8-a376-9ee1ced923df)
+
 
 
 ## Software and Packages
