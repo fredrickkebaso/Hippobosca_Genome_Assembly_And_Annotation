@@ -36,11 +36,13 @@ The availing of the genome assembly will provide the knowledge base upon which v
 
 ### De novo genome assembly workflow
 
-![De novo genome assembly](https://github.com/fredrickkebaso/Hipposcus_Genome_Assembly_And_Annotation/assets/60787991/dba9b2dd-2e02-44d5-80ee-7f9165c9308c)
+![Workflows-De-novo assembly drawio ](https://github.com/fredrickkebaso/Hipposcus_Genome_Assembly_And_Annotation/assets/60787991/5329bae0-b649-4234-a015-4f8bea4ebff2)
+
 
 ### Functional annotation Workflow
 
-![Workflows-Functional annotation-Functional annotation drawio](https://github.com/fredrickkebaso/Hipposcus_Genome_Assembly_And_Annotation/assets/60787991/f374ef21-a2c4-4308-9b12-fb71ceb40048)
+![Workflows-Functional annotation drawio](https://github.com/fredrickkebaso/Hipposcus_Genome_Assembly_And_Annotation/assets/60787991/8094ff09-8587-447d-8a37-d9463a120cfb)
+
 
 
 
