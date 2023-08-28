@@ -50,3 +50,17 @@ The availing of the genome assembly will provide the knowledge base upon which v
 ## Software and Packages
 
 All tools used have been documented [here](https://github.com/fredrickkebaso/Hipposcus_Genome_Assembly_And_Annotation/blob/main/software%20packages%20.md)
+
+## Results
+
+### Assembled Genome Features
+
+
+| Metric | *Hippoboscus variegata* | *Hippoboscus camelina* |
+|--------|-----------------------|----------------------|
+| Genome size (mb) | 147.25 | 148.44 |
+| Contig N50 (kb) | 3kb | 3kb |
+| Number of contigs | 177664 | 179543 |
+| GC content | 29.40% | 28.60% |
+| Percentage gaps | 0.74% | 0.08% |
+
