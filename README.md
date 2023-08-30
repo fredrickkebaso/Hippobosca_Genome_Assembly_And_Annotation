@@ -84,7 +84,7 @@ All tools used have been documented [here](https://github.com/fredrickkebaso/Hip
 
 ![chemosensory_genes_hippoboscus_vs_Glossina](https://github.com/fredrickkebaso/Hipposcus_Genome_Assembly_And_Annotation/assets/60787991/d604256d-33f3-4c3f-88cf-99bf347e72b3)
 
-**Figure 3: A group bar chart showing the predicted chemosensory gene counts per gene familly in _H. variegata_ and _H.  camelina_ alongside _Glossina morsitans _ gene counts.** The Y-axis shows the actual gene counts per gene family. The X-axis shows the gene family; Chemosensory Specific Proteins (CSPs), Gustatory Proteins(GRs), Ionotropic Receptors (IRs), Odorant Binding Proteins (OBPs), and Odorant Receptors (ORs).
+**Figure 3: A group bar chart showing the predicted chemosensory gene counts per gene familly in _H. variegata_ and _H.  camelina_ alongside _Glossina morsitans _ gene.** The Y-axis shows the actual gene counts per gene family. The X-axis shows the gene family; Chemosensory Specific Proteins (CSPs), Gustatory Proteins(GRs), Ionotropic Receptors (IRs), Odorant Binding Proteins (OBPs), and Odorant Receptors (ORs).
 
 
 ## Phylogenetic Clustering 
