@@ -7,7 +7,7 @@
 
 The control strategies of vector-borne diseases (VBDs) and their effects target the vector itself, thereby controlling the transmission rates of the vectored pathogens. Most vectors, particularly Dipterans or Insects, have developed a robust chemosensory system that plays a vital role in their ability to locate hosts for feeding, mates for reproduction, and predator evasion, which ultimately contributes to their successful establishment ecologically. To effectively suppress pathogen transmission to hosts, strategies have been devised to exploit the vector's chemosensory system in order to trap and repel the vectors themselves.
 
-In this study, we hypothesize that Hippoboscus, a dipteran, relies extensively on its chemosensory system to locate its host, facilitate reproduction, and potentially transmit pathogens.
+In this study, we hypothesize that *Hippoboscus*, a dipteran, relies extensively on its chemosensory system to locate its host, facilitate reproduction, and potentially transmit pathogens.
 A genome assembly for the *Hippobosca* species is currently unavailable in the genome database. This limits access to molecular insights on Hippobosca species, particularly the chemosensory system.
 
 This study therefore focused on generating a whole genome assembly for two *Hippobosca* species: *Hippobosca variegata* and *Hippobosca camelina* and describing their chemosensory system. 
