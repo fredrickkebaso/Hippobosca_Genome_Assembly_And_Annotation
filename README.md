@@ -29,7 +29,7 @@ The availing of the genome assembly will provide the knowledge base upon which v
 
 1. To generate whole genome assembly for *H. variegata* and *H. camelina*.
 
-2. To identify the genomic architecture and gene content of the chemosensory genes in the three *Hippobosca* species.
+2. To identify the genomic architecture and gene content of the chemosensory genes in the two *Hippobosca* fly species.
 
 
 ## Analysis workflow
