@@ -29,8 +29,7 @@ results="${basedir}/results/velvet"
 assembly_name="hcamelina_m_velvet_genome.fa"
 forward_read="${basedir}/results/kraken/hcamelina_male_unclassified_reads_1.fq" 
 reverse_read="${basedir}/results/kraken/hcamelina_male_unclassified_reads_2.fq"
-kmer=51
-insert_size=290 
+kmer=51 
 
 
 # Remove output directory if it already exists
@@ -68,7 +67,7 @@ velveth "${results}" "${kmer}" -fastq.gz -shortPaired -separate "${forward_read}
 
 echo "Running velvetg command..."
 
-velvetg "${results}" -exp_cov auto -cov_cutoff auto -ins_length "${insert_size}"
+velvetg "${results}" -exp_cov auto -cov_cutoff auto 
 
 # Remove intermediate files
 echo "Removing intermediate files..."
