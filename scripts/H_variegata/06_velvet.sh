@@ -53,7 +53,7 @@ velveth "${results}" 51 -fastq.gz -shortPaired -separate "${forward_read}" "${re
 # Coverage cutoff is set based on the expected coverage
 # Insert size of the paired-end reads is 290
 echo "Running velvetg command..."
-velvetg "${results}" -exp_cov auto -cov_cutoff auto -ins_length 290
+velvetg "${results}" -exp_cov auto -cov_cutoff auto 
 
 # Remove intermediate files
 echo "Removing intermediate files..."
