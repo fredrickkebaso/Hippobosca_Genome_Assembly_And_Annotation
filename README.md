@@ -1,3 +1,9 @@
+## 🚨 Important Notice 🚨
+
+📢 The *Hippobosca camelina* genome has been **updated** using **Oxford Nanopore long reads** and **Illumina short reads**. The improved genome and chemosensory gene annotations are now available in **GenBank**.  
+
+👉: **Access the updated data and scripts here:** [Improved camel ked genome](https://github.com/fredrickkebaso/Hippobosca-camelina-Genome-and-Chemosensory-genes)
+
 # De-novo-Genome-Assembly-and-chemosensory-gene-annotation-in-_Hippobosca-variegata_-and-_Hippobosca camelina_
 
 
